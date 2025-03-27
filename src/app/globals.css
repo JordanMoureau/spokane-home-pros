@@ -1,21 +1,15 @@
 @import "tailwindcss";
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f4f4f4;
+    --foreground: #f4f4f4;
   }
 }
 
@@ -23,4 +17,50 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.raleway {
+  font-family: "Raleway";
+}
+
+.inter {
+  font-family: "Inter";
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+p {
+  font-weight: 700;
+}
+
+.white-opacity {
+  background-color: rbga(255, 255, 255, 0.3);
+}
+
+.blue {
+  color: #1f509a;
+}
+.orange {
+  color: #f57c00;
+}
+
+/* 
+colors: {
+  primary: "#1F509A",
+  accent: "#F57C00",
+}, */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
 }
