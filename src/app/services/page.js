@@ -27,7 +27,15 @@ export default function Services() {
       </div>
 
       <div className="lg:w-2/3 w-full mb-10">
-        <video controls autoPlay muted loop className="shadow-lg">
+        <video
+          controls
+          autoPlay
+          muted
+          playsInline
+          webkit-playsinline="true"
+          loop
+          className="shadow-lg"
+        >
           <source src="/remodel.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

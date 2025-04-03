@@ -1,6 +1,19 @@
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import { Inter, Raleway } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+  variable: "--font-inter",
+});
+
+const raleway = Raleway({
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+  variable: "--font-raleway",
+});
 
 export const metadata = {
   title: "Spokane Home Pros",

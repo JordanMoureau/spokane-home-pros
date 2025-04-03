@@ -1,8 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 export default function Cards() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check if the device supports touch events (aka is a mobile device)
+    const isTouchDevice =
+      "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    setIsMobile(isTouchDevice);
+  }, []);
+
   const cards = [
     {
       title: "Bathrooms",
@@ -36,8 +46,13 @@ export default function Cards() {
           {/* Background Overlay for Opaque Effect */}
           <div className="absolute inset-0 bg-[#FFB229] opacity-40"></div>
 
-          {/* Header (Always Visible) */}
-          <motion.div className="absolute inset-0 flex items-center p-4 text-white bg-[#FFB229] opacity-0 group-hover:opacity-90 transition-all duration-300">
+          {/* Header - Visible on Mobile or Hover */}
+          <motion.div
+            className={`absolute inset-0 flex items-center p-4 text-white bg-[#FFB229] 
+            transition-all duration-300 ${
+              isMobile ? "opacity-70" : "opacity-0 group-hover:opacity-90"
+            }`}
+          >
             <div className="w-full text-left">
               <h2 className="relative z-10 text-5xl text-white font-bold">
                 {card.title}

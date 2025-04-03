@@ -16,7 +16,7 @@ function MobileNav({ isMenuOpen, setIsMenuOpen }) {
       transition={{ type: "spring", stiffness: 300, damping: 30 }}
       className="fixed z-20 top-0 right-0 h-full w-3/4 bg-white shadow-lg p-6"
     >
-      <ul className="space-y-4 text-xl flex items-start justify-center h-screen flex-col">
+      <ul className="space-y-6 text-xl flex items-center justify-center h-screen flex-col">
         {[
           { href: "/", label: "Home" },
           { href: "/services", label: "Services" },
@@ -25,11 +25,8 @@ function MobileNav({ isMenuOpen, setIsMenuOpen }) {
           <li key={link.href}>
             <Link
               href={link.href}
-              className={`font-${
-                pathname === link.href ||
-                (pathname === "/quote" && link.href === "/")
-                  ? "bold"
-                  : "light"
+              className={`font-${pathname === link.href ? "bold" : "light"} ${
+                pathname === link.href ? "text-[#1F509A]" : "text-[#1F509A]"
               }`}
               onClick={() => setIsMenuOpen(false)}
             >
@@ -40,7 +37,7 @@ function MobileNav({ isMenuOpen, setIsMenuOpen }) {
         <li>
           <Link
             href="/quote"
-            className="text-white px-4 py-2 font-bold bg-[#FFB229]"
+            className="text-white px-6 py-3 mt-6 font-bold bg-[#FFB229] rounded-lg hover:bg-[#FF9300] transition-all duration-300 block w-full text-center"
             onClick={() => setIsMenuOpen(false)}
           >
             Get a Free Estimate
@@ -50,7 +47,6 @@ function MobileNav({ isMenuOpen, setIsMenuOpen }) {
     </motion.div>
   );
 }
-
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();

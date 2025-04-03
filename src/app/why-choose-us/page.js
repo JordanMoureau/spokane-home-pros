@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
       title: "Flooring",
       descr:
         "Real or composite? Whatever you prefer we can help you pick it and install it for you. Hassel free.",
-      img: "flooring.jpeg",
+      img: "/flooring.jpeg",
       alt: "Flooring installation in Spokane WA - Hardwood, composite, and tile flooring solutions",
     },
     {
@@ -45,37 +45,43 @@ export default function WhyChooseUs() {
   return (
     <>
       <section className="flex blue flex-col items-center justify-center">
-        <div className="pt-50 px-6 max-w-4xl text-center">
-          <h1 className="text-5xl">We are Spokane's Home Pros</h1>
-          <p className=" px-10 text-3xl">Your Trusted Home Professionals</p>
+        <div className="pt-10 px-4 md:px-6 max-w-4xl text-center">
+          <h1 className="text-3xl md:text-5xl mb-4">
+            We are Spokane's Home Pros
+          </h1>
+          <p className="text-xl md:text-3xl mb-4">
+            Your Trusted Home Professionals
+          </p>
         </div>
         <ContactButtons />
 
-        <div className="gap-10 mt-20 flex flex-wrap mb-10">
+        <div className="gap-10 mt-10 flex flex-col md:flex-wrap md:flex-row mb-10 px-4 md:px-0">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-[#1F509A] flex flex-row w-full items-center shadow-lg"
+              className="bg-[#1F509A] flex flex-col md:flex-row w-full items-center shadow-lg mb-6 md:mb-0"
             >
-              <div className="text-white w-1/3 p-8">
-                <h1 className="text-4xl mb-2 font-bold">{card.title}</h1>
+              <div className="text-white p-6 md:w-1/3 w-full">
+                <h1 className="text-2xl md:text-4xl mb-2 font-bold">
+                  {card.title}
+                </h1>
                 <p>{card.descr}</p>
               </div>
-              <div className="w-2/3">
+              <div className="w-full md:w-2/3">
                 <img
                   src={card.img}
                   alt={card.alt}
-                  className="w-full h-full object-cover rounded-r-lg"
+                  className="w-full h-full object-cover "
                 />
               </div>
             </div>
           ))}
         </div>
 
-        <div className="py-30 px-6 max-w-3xl text-center">
-          <h1 className="text-5xl mb-10">Why Spokane Home Pros?</h1>
-          <p>
-            We don't just build and repair--we provide and stress-free, reliable
+        <div className="py-10 px-4 md:px-6 max-w-3xl text-center">
+          <h1 className="text-3xl md:text-5xl mb-10">Why Spokane Home Pros?</h1>
+          <p className="mb-6">
+            We don't just build and repair--we provide a stress-free, reliable
             experience from start to finish. Here's what makes us different.
           </p>
           <CheckList items={checklistItems} />
