@@ -7,12 +7,14 @@ const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "700", "900"],
   variable: "--font-inter",
+  display: "swap",
 });
 
 const raleway = Raleway({
   subsets: ["latin"],
   weight: ["400", "700", "900"],
   variable: "--font-raleway",
+  display: "swap",
 });
 
 export const metadata = {
