@@ -45,7 +45,7 @@ export default function WhyChooseUs() {
   return (
     <>
       <section className="flex blue flex-col items-center justify-center">
-        <div className="pt-10 px-4 md:px-6 max-w-4xl text-center">
+        <div className="pt-30 px-4 md:px-6 max-w-4xl text-center">
           <h1 className="text-3xl md:text-5xl mb-4">
             We are Spokane's Home Pros
           </h1>

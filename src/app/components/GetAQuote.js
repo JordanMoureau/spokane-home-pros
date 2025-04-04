@@ -37,7 +37,7 @@ export default function GetAQuote() {
   };
 
   return (
-    <section className="bg-[#FFB229] p-10 md:p-20 flex flex-col md:flex-row items-center justify-center">
+    <section className="bg-[#FFB229] p-5 md:p-20 flex flex-col md:flex-row items-center justify-center">
       <div className="max-w-6xl flex flex-col lg:flex-row gap-10 md:gap-20 items-center justify-center">
         <div className="flex flex-col gap-10 lg:gap-20 w-2/ lg:w-1/3">
           <a

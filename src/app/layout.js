@@ -25,7 +25,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${raleway.variable}`}>
-      <body className="font-raleway">
+      <body className="font-raleway font-inter">
         <NavBar />
         {children}
         <Footer />
