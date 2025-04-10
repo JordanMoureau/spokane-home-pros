@@ -53,14 +53,18 @@ export default function Footer() {
         {/* Bottom Section - Contact Info */}
         <div className="flex flex-wrap items-center justify-between gap-6 mt-10 w-full">
           <div className="flex items-center">
-            <FaMapMarkerAlt /> <span className="ml-2">Spokane, WA</span>
+            <FaMapMarkerAlt />{" "}
+            <span className="ml-2">
+              2624 N Division St. #1123<br></br>
+              Spokane, WA 99207
+            </span>
           </div>
           <div className="flex items-center">
             <FaEnvelope />{" "}
-            <span className="ml-2">info@spokanehomepros.com</span>
+            <span className="ml-2">spokanehomepros@gmail.com</span>
           </div>
           <div className="flex items-center">
-            <FaPhone /> <span className="ml-2">(123) 456-7890</span>
+            <FaPhone /> <span className="ml-2">(509) 862-7934</span>
           </div>
           <div className="flex space-x-4">
             <Link
