@@ -6,6 +6,8 @@ import ContactButtons from "./components/ContactButtons";
 import BeforeAfter from "./components/BeforeAfter";
 import Testimonials from "./components/Testimonial";
 
+export const dynamic = "force-static";
+
 export default function Home() {
   return (
     <main className="min-h-screen blue bg-white text-gray-900">
@@ -17,6 +19,10 @@ export default function Home() {
         </h1>
         <p className=" px-10 text-3xl">
           The people you can trust with your home
+        </p>
+        <p className="max-w-2xl px-1 py-3">
+          Specializing in kitchen remodeling, bathroom renovations, flooring
+          installation, and complete home improvement services.
         </p>
         <Link
           href="/quote"
@@ -38,8 +44,8 @@ export default function Home() {
             <br />
             Spokane Home Pros: The trusted choice for homeowners. Your home
             deserves quality work. With years of experience and a commitment to
-            excellence, we make sure every repair or remodel stands the test of
-            time.
+            excellence, we deliver outstanding results in Spokane bathroom
+            remodels, kitchen upgrades, and full home renovations.
           </p>
           <ContactButtons />
         </div>

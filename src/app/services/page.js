@@ -2,6 +2,14 @@ import ContactButtons from "../components/ContactButtons";
 import Testimonials from "../components/Testimonial";
 import CheckList from "../components/CheckList";
 
+export const dynamic = "force-static";
+
+export const metadata = {
+  title: "Spokane Kitchen & Bathroom Remodeling | Home Pros Services",
+  description:
+    "Explore trusted home remodeling services in Spokane WA. Specializing in kitchen renovations, bathroom upgrades, and expert flooring installation.",
+};
+
 export default function Services() {
   const checklistItems = [
     "Home Repairs",
@@ -22,7 +30,9 @@ export default function Services() {
           experience in home repairs, renovations, and upgrades, making sure
           every project meets the highest standards. We take pride in our
           transparent communication, reliable service, and attention to
-          detail--because your home deserves the best.
+          detail—because your home deserves the best. We’re known among
+          remodeling contractors in Spokane for our work on bathroom
+          renovations, kitchen upgrades, and custom flooring solutions.
         </p>
       </div>
 
@@ -45,9 +55,11 @@ export default function Services() {
       <div className="py-30 px-6 max-w-3xl text-center">
         <h1 className="text-5xl mb-10">Quality Home Repairs & Renovations</h1>
         <p>
-          We handle everything form small repairs to full home remodels. Whether
+          We handle everything from small repairs to full home remodels. Whether
           you need a quick fix or a major upgrade, we bring the same level of
-          care, expertise, and craftsmanship to every project.
+          care, expertise, and craftsmanship to every project. Our services
+          include kitchen remodeling, bathroom upgrades, and expert flooring
+          installation.
         </p>
         <CheckList items={checklistItems} />
         <ContactButtons />

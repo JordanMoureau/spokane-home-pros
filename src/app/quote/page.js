@@ -1,6 +1,14 @@
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import ContactForm from "../components/ContactForm";
 
+export const dynamic = "force-static";
+
+export const metadata = {
+  title: "Request a Quote | Spokane Kitchen & Bathroom Remodeling Experts",
+  description:
+    "Get a free quote from Spokane Home Pros. We specialize in kitchen remodeling, bathroom renovations, and home upgrades across Spokane WA.",
+};
+
 export default function QuotePage() {
   return (
     <main className="min-h-screen mb-7 bg-[#ffba42] blue">
@@ -10,15 +18,16 @@ export default function QuotePage() {
         </h1>
         <p className="text-lg max-w-2xl text-center">
           Tell us what you need, and we'll get back to you with a customized
-          quote that fits your budget and timeline. No hassle, just honest
-          pricing.
+          quote that fits your budget and timeline. From kitchen renovations to
+          bathroom remodels and full home improvements, we offer honest pricing
+          and top-tier service.
         </p>
         <div className="mt-8 w-full max-w-2xl">
           <ContactForm />
         </div>
 
-        <div className="bg-[#FFDDA6] mt-10 p-10 w-full max-w-4xl rounded-4xl flex flex-col md:flex-row items-center">
-          <div className="w-full lg:w-1/4 flex flex-col items-center">
+        <div className="bg-[#FFDDA6] mt-10 p-10 w-full max-w-5xl rounded-4xl flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="w-full md:w-1/3 flex flex-col items-center">
             <a
               href="tel:5098627934"
               className="flex flex-row items-center hover:opacity-90 transition"
@@ -29,20 +38,20 @@ export default function QuotePage() {
             <h1 className="text-2xl">Call Us Directly</h1>
           </div>
 
-          <div className="w-full lg:w-1/5 text-[#FFB229] p-3 text-center">
+          <div className="w-full md:w-auto text-[#FFB229] text-center">
             <h1 className="text-5xl font-bold">OR</h1>
           </div>
 
-          <div className="w-full lg:w-2/3 flex flex-col">
+          <div className="w-full md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left">
             <a
               href="mailto:spokanehomepros@gmail.com"
-              className="flex flex-row justify-center lg:justify-start font-bold items-center hover:opacity-90 transition"
+              className="flex flex-row justify-center md:justify-start font-bold items-center hover:opacity-90 transition"
             >
               <FaEnvelope className="blue mr-5" size={20} />
               <p>spokanehomepros@gmail.com</p>
             </a>
-            <h1 className="text-xl text-center lg:text-left">
-              Email Us to Get In Touch With a Home Pro
+            <h1 className="text-xl">
+              Email Us to Get in Touch With a Remodeling Pro
             </h1>
           </div>
         </div>

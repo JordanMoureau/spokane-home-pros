@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://spokanehomepros.com
+
+# Sitemaps
+Sitemap: https://spokanehomepros.com/sitemap.xml

@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const testimonials = [
+const fallbackTestimonials = [
   {
     quote:
       "We hired Brandon to add a half-bath to our nearly 100 year old brick home and we are very pleased with his work. He was able to take our ideas and make them a reality...",
@@ -27,17 +27,49 @@ const testimonials = [
 ];
 
 export default function Testimonials() {
+  const [testimonials, setTestimonials] = useState(fallbackTestimonials);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Auto-play logic
+  const MAX_LENGTH = 150;
+
+  const smartTruncate = (str, maxLength = 250) => {
+    if (str.length <= maxLength) return str;
+    const shortened = str.slice(0, maxLength);
+    const lastSpaceIndex = shortened.lastIndexOf(" ");
+    return shortened.slice(0, lastSpaceIndex) + "...";
+  };
+
+  useEffect(() => {
+    const fetchReviews = async () => {
+      try {
+        const res = await fetch("/api/reviews");
+        const data = await res.json();
+
+        if (data.length > 0) {
+          const formatted = data.map((r) => ({
+            quote: r.text,
+            name: r.author_name,
+          }));
+          setTestimonials(formatted);
+        } else {
+          console.warn("No Google reviews returned. Using fallback.");
+        }
+      } catch (error) {
+        console.error("Failed to fetch Google reviews. Using fallback.");
+      }
+    };
+
+    fetchReviews();
+  }, []);
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); // Change slides every 5 seconds
-    return () => clearInterval(interval); // Clean up interval on unmount
-  }, []);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [testimonials]);
 
   return (
     <section className="p-0 md:6 py-30">
@@ -63,11 +95,10 @@ export default function Testimonials() {
                   </span>
                   <div className="flex flex-col px-4 md:px-10 items-end text-[#1F509A] w-4/6">
                     <blockquote className="italic text-left text-xl md:text-2xl font-bold">
-                      {testimonial.quote}
+                      {smartTruncate(testimonial.quote, MAX_LENGTH)}
                     </blockquote>
                     <span className="mt-2 text-xl md:text-2xl italic font-bold">{`- ${testimonial.name}`}</span>
                   </div>
-
                   <span className="w-1/8">
                     <img
                       src="/quotel.png"
