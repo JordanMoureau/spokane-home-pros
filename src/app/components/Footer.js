@@ -43,6 +43,9 @@ export default function Footer() {
               <Link href="/about-us" className="block">
                 About Us
               </Link>
+              <Link href="/faq" className="block">
+                FAQ
+              </Link>
               <Link href="/contact" className="block">
                 Contact Us
               </Link>
