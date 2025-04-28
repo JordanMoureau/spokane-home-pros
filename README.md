@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spokane Home Pros - Remodeling & Repair Services in Spokane Washington - AKA SEO POWERHOUSE PROJECT
 
-## Getting Started
+## This site is a react build with next js deployed to vercel.
 
-First, run the development server:
+#### The project objective is convert visitors into trusting clients with a conversion focused site design and copy, as well as extensive SEO with the goal of First Page Status within Six Months.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#### Our organic SEO work ran along side google sponsored ads to bridge the visibility gap until we coudl achieve first page.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### The site itself was built with tailwind, react and Next.js built in router system. It has features like a video hero element, animated reviews component, Google Places API for live Google Review injection, mobile responsiveness, and quote forms with FormSpree.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### For SEO we started by setting up SEMRush on the property, installed GA4, identified keywords to target:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Spokane home improvement services
+- Spokane Kitchen Remodeling
+- Flooring installation Spokane
+- Home renovation Spokane WA
+- Bathroom Renovation Spokane
+- Kitchen Contractors Spokane
+- Spokane flooring experts
+- Home remodeling in Spokane
 
-## Learn More
+## First big push for SEO resulted in a 57 placement jump. From 0 to position 43. Here's how we achieved it:
 
-To learn more about Next.js, take a look at the following resources:
+- Created robots.txt and submitted a clean sitemap
+- Added dynamic metadata for each page
+- Implemented Open Graph and Twitter Cards
+- Added Structured Data (Schema.org)
+- Built an FAQ page
+- Revised each site page using AI to embed our chosen keywords
+- Configured ALT text
+- Implemented Static Rendering
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Next Steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Run through SEMRush's error assement
+- Build Tips & Tricks page and an organized system for easy blog posting on my end
+- Follow through all of SEMRush's suggestions
+- Check in with ChatGPT for any other missed opportunities to improve ranking.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Spokane Home Pros remains an ongoing case study in effective local SEO strategy and performance-first web development. Future optimizations will focus on securing first-page rankings and expanding organic reach.
