@@ -19,13 +19,15 @@ const raleway = Raleway({
 });
 
 export const metadata = {
-  title: "Spokane Home Remodeling Experts | Brandon the Handyman",
+  title:
+    "Spokane Home Remodeling Experts | Kitchen Remodels, Exteriors, Bathroom, Flooring and Home Repair",
   description:
     "Top-rated remodeling contractors in Spokane WA specializing in bathroom renovation, kitchen remodeling, and flooring installation. Trusted home improvement services.",
   openGraph: {
     type: "website",
     url: "https://spokanehomepros.com",
-    title: "Spokane Home Remodeling Experts | Brandon the Handyman",
+    title:
+      "Spokane Home Remodeling Experts |  Kitchen Remodels, Exteriors, Bathroom, Flooring and Home Repair",
     description:
       "Trusted remodeling contractors in Spokane WA for kitchens, bathrooms, flooring, and home improvement.",
     images: [
@@ -40,7 +42,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Spokane Home Remodeling Experts | Brandon the Handyman",
+    title:
+      "Spokane Home Remodeling Experts |  Kitchen Remodels, Exteriors, Bathroom, Flooring and Home Repair",
     description:
       "Expert Spokane remodeling contractors for kitchen, bath, flooring & more. Rated 4.8 stars.",
     images: ["https://spokanehomepros.com/logo.jpg"],
