@@ -7,7 +7,7 @@ export const dynamic = "force-static";
 export const metadata = {
   title: "Why Choose Us | Spokane Remodeling Contractors You Can Trust",
   description:
-    "Discover why homeowners across Spokane WA trust Spokane Home Pros for expert kitchen remodeling, bathroom renovations, and home improvement services.",
+    "Fin out why homeowners in Spokane trust Spokane Home Pros for kitchen remodeling, bathroom renovations, and home improvement services. We do it once and do it right.",
 };
 
 export default function WhyChooseUs() {
@@ -23,28 +23,28 @@ export default function WhyChooseUs() {
     {
       title: "Bathrooms",
       descr:
-        "Whether you're looking for a sleek, modern Spokane bathroom remodel or a cozy spa-like retreat, our expert team delivers high-quality craftsmanship for any budget.",
+        "Need a walk-in shower? Has water damage taken over? Or need a contractor that understands historical homes? Spokane has a lot of them. We're the right choice.",
       img: "/bathrooms.jpeg",
-      alt: "Bathroom remodeling services in Spokane WA - Modern and cozy designs",
+      alt: "Bathroom remodeling services in Spokane WA",
     },
     {
       title: "Kitchens",
       descr:
-        "Our kitchen remodeling services fit your house and your budget. No job is too small or too big for us. Whether it's a full kitchen remodel or just new countertops—we're here for it.",
+        "Our kitchen remodeling services fit your house and your budget. No job is too small or too big for us. Whether it's a full kitchen remodel or just new countertops, we get it done.",
       img: "/kitchens.jpeg",
       alt: "Kitchen renovation in Spokane WA - Affordable and custom kitchen upgrades",
     },
     {
       title: "Flooring",
       descr:
-        "Whether you prefer real hardwood or composite, our flooring installation team can help you choose and install the perfect solution—hassle free.",
+        "Whether you want real hardwood or composite, our flooring installation team can help you choose and install the perfect solution. Always hassle free.",
       img: "/flooring.jpeg",
       alt: "Flooring installation in Spokane WA - Hardwood, composite, and tile flooring solutions",
     },
     {
       title: "Exteriors",
       descr:
-        "Exterior home improvement in Spokane means more than just curb appeal—new paint, siding, and windows protect your home and improve energy efficiency.",
+        "Exterior home improvement in Spokane is more than curb appeal. New paint, siding, and windows protect your home and help keep it warm in the winter. We know Spokane Winters and keeping your exterior in good shape can have a huge effect on the electric bill.",
       img: "/exterior.jpeg",
       alt: "Exterior home improvement in Spokane WA - Siding, paint, and window upgrades",
     },
@@ -61,10 +61,10 @@ export default function WhyChooseUs() {
             Your Trusted Home Professionals
           </h2>
           <p className="text-lg md:text-xl mt-2">
-            Your trusted experts in bathroom remodels, kitchen renovations, and
-            home improvement services. From flooring installation to complete
-            home remodeling in Spokane WA, we bring quality craftsmanship to
-            every project.
+            We've built bathrooms in Northtown, kitchen renovations on the South
+            Hill, and replaced windows in the Valley. From flooring installation
+            to complete home remodeling in Spokane WA, we bring real
+            craftsmanship to every project. If it's your home. We fix it right.
           </p>
         </div>
         <ContactButtons />
@@ -96,7 +96,7 @@ export default function WhyChooseUs() {
           <h1 className="text-3xl md:text-5xl mb-10">Why Spokane Home Pros?</h1>
           <p className="mb-6">
             Spokane homeowners choose us for everything from bathroom renovation
-            and kitchen remodeling to flooring installation and full home
+            and kitchen remodeling to flooring installation and home
             renovations. Here’s why our clients keep coming back:
           </p>
           <CheckList items={checklistItems} />

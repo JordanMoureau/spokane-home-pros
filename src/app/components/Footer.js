@@ -24,7 +24,7 @@ export default function Footer() {
               className="mx-auto my-5 md:mx-0"
             />
             <div className="mt-9 text-white font-bold text-lg">
-              Professionals You Can Trust
+              Home Renovation Professionals You Can Trust
             </div>
             <div className="text-white md:mb-10 font-bold text-lg">
               Spokane's Home Pros
@@ -40,12 +40,15 @@ export default function Footer() {
               <Link href="/services" className="block">
                 Services
               </Link>
+              {/* <Link href="/tips">Tips & Tricks</Link> */}
+
               <Link href="/about-us" className="block">
                 About Us
               </Link>
               <Link href="/faq" className="block">
                 FAQ
               </Link>
+
               <Link href="/contact" className="block">
                 Contact Us
               </Link>

@@ -18,11 +18,11 @@ export default function Home() {
           We Are Spokane's Home Pros
         </h1>
         <p className=" px-10 text-3xl">
-          The people you can trust with your home
+          Born and built in Spokane. We treat your home like it's ours.
         </p>
         <p className="max-w-2xl px-1 py-3">
-          Specializing in kitchen remodeling, bathroom renovations, flooring
-          installation, and complete home improvement services.
+          From kitchen makeovers to bathroom upgrades. We do it all and we do it
+          right. The first time.
         </p>
         <Link
           href="/quote"
@@ -38,14 +38,15 @@ export default function Home() {
         <div className="max-w-2xl">
           <h1 className=" text-5xl mt-30 mb-3">No Job Too Big or Small</h1>
           <p className=" text-lg">
-            No job too big or small—just expert repairs done right, on time, and
-            with zero hassle.
+            No job too big or small. Just repairs done right. We show up, get it
+            done and don't leave a mess.
             <br />
             <br />
-            Spokane Home Pros: The trusted choice for homeowners. Your home
-            deserves quality work. With years of experience and a commitment to
-            excellence, we deliver outstanding results in Spokane bathroom
-            remodels, kitchen upgrades, and full home renovations.
+            Spokane Home Pros: The trusted pick for homeowners. Your home
+            deserves quality. With years of experience, we deliver on our
+            promises in Spokane. Bathroom remodels, kitchen upgrades, and full
+            home renovations. We're known for showing up, finishing on time, and
+            when we fix it, it stays fixed.
           </p>
           <ContactButtons />
         </div>

@@ -113,8 +113,7 @@ const jsonLd = {
       itemOffered: {
         "@type": "Service",
         name: "Custom Projects",
-        description:
-          "Tailored home improvement projects to meet unique client needs.",
+        description: "Home improvement projects to meet unique client needs.",
       },
     },
   ],

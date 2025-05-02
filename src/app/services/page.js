@@ -7,7 +7,7 @@ export const dynamic = "force-static";
 export const metadata = {
   title: "Spokane Kitchen & Bathroom Remodeling | Home Pros Services",
   description:
-    "Explore trusted home remodeling services in Spokane WA. Specializing in kitchen renovations, bathroom upgrades, and expert flooring installation.",
+    "Trusted home remodeling services in Spokane WA. Specializing in kitchen renovations, bathroom upgrades, and flooring installation.",
 };
 
 export default function Services() {
@@ -23,16 +23,15 @@ export default function Services() {
     <section className="flex blue flex-col items-center justify-center">
       <div className="py-40 px-6 max-w-4xl text-center">
         <h1 className="text-5xl">We Are Spokane's Home Pros</h1>
-        <h1 className="text-5xl mb-8">Your Trusted Renovation Experts</h1>
+        <h1 className="text-5xl mb-8">Your Renovation Experts</h1>
         <p>
           At Spokane Home Pros, we believe in quality craftsmanship, honest
           pricing, and a job done right the first time. Our team brings years of
           experience in home repairs, renovations, and upgrades, making sure
           every project meets the highest standards. We take pride in our
-          transparent communication, reliable service, and attention to
-          detail—because your home deserves the best. We’re known among
-          remodeling contractors in Spokane for our work on bathroom
-          renovations, kitchen upgrades, and custom flooring solutions.
+          transparent communication, reliable service, and attention to detail,
+          because your home deserves the best. We’re known in Spokane for our
+          work on bathroom renovations, kitchen upgrades, and custom flooring.
         </p>
       </div>
 
@@ -55,11 +54,11 @@ export default function Services() {
       <div className="py-30 px-6 max-w-3xl text-center">
         <h1 className="text-5xl mb-10">Quality Home Repairs & Renovations</h1>
         <p>
-          We handle everything from small repairs to full home remodels. Whether
-          you need a quick fix or a major upgrade, we bring the same level of
-          care, expertise, and craftsmanship to every project. Our services
-          include kitchen remodeling, bathroom upgrades, and expert flooring
-          installation.
+          We handle everything from small repairs to start to finish home
+          remodels. Whether you need a quick fix or a major upgrade, we bring
+          the same level of care, expertise, and craftsmanship to every project.
+          Our services include kitchen remodeling, bathroom upgrades, drywall
+          work, exteriors and expert flooring installation.
         </p>
         <CheckList items={checklistItems} />
         <ContactButtons />

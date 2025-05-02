@@ -21,6 +21,7 @@ function MobileNav({ isMenuOpen, setIsMenuOpen }) {
           { href: "/", label: "Home" },
           { href: "/services", label: "Services" },
           { href: "/why-choose-us", label: "Why Choose Us" },
+          // { href: "/tips-and-tricks", label: "Tips & Tricks" },
         ].map((link) => (
           <li key={link.href}>
             <Link
@@ -53,19 +54,20 @@ function NavBar() {
 
   return (
     <nav className="primary-color text-[#1F509A] p-4 uppercase">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className=" mx-auto flex justify-between items-center">
         <img src="/logo.png" alt="Spokane Home Pros Logo" width={180} />
         <div
-          className="md:hidden cursor-pointer z-50"
+          className="lg:hidden cursor-pointer z-50"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </div>
-        <ul className="hidden md:flex space-x-6 items-center">
+        <ul className="hidden lg:flex space-x-6 items-center">
           {[
             { href: "/", label: "Home" },
             { href: "/services", label: "Services" },
             { href: "/why-choose-us", label: "Why Choose Us" },
+            // { href: "/tips-and-tricks", label: "Tips & Tricks" },
           ].map((link) => (
             <li key={link.href}>
               <Link

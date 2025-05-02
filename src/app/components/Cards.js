@@ -18,19 +18,19 @@ export default function Cards() {
       title: "Bathrooms",
       image: "/bathrooms.jpeg",
       subheader:
-        "Whether you’re looking for a sleek, modern upgrade or a cozy, spa-like retreat, our expert team delivers high-quality craftsmanship tailored to your style and needs.",
+        "Whether you’re looking for a modern upgrade or a cozy, spa-like retreat, our  team delivers bathroom renovation that's high-quality craftsmanship tailored to your style and needs.",
     },
     {
       title: "Kitchens",
       image: "/kitchens.jpeg",
       subheader:
-        "From contemporary open-concept designs to timeless classics, we transform kitchens into beautiful, functional spaces that fit your lifestyle.",
+        "Kitchen remodels can be hard on family. At Spokane Home Pros, we're dedicated to making it quick and painless. From contemporary open-concept designs to timeless classics, we transform kitchens into beautiful, functional spaces that fit your lifestyle.",
     },
     {
       title: "Flooring",
       image: "/flooring.jpeg",
       subheader:
-        "Our durable, stylish flooring options are designed to enhance your home’s beauty while standing up to daily wear and tear.",
+        "Our flooring options are designed to enhance your Spokane home’s beauty while standing up to daily wear and tear. We're experts in flooring installation and repair.",
     },
   ];
 

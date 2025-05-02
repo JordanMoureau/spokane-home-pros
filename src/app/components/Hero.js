@@ -28,7 +28,7 @@ export default function Hero() {
       >
         <Image
           src="/logomain.png"
-          alt="Spokane Home Pros Logo"
+          alt="Spokane Home Pros, home renovation and repair in Spokane Washington"
           width={600}
           height={600}
           className="w-1/2 md:w-1/3"

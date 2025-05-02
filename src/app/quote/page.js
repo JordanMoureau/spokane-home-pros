@@ -19,8 +19,8 @@ export default function QuotePage() {
         <p className="text-lg max-w-2xl text-center">
           Tell us what you need, and we'll get back to you with a customized
           quote that fits your budget and timeline. From kitchen renovations to
-          bathroom remodels and full home improvements, we offer honest pricing
-          and top-tier service.
+          bathroom remodels and home improvements, we offer honest pricing and
+          top-tier service.
         </p>
         <div className="mt-8 w-full max-w-2xl">
           <ContactForm />
