@@ -1,5 +1,12 @@
 import React from "react";
 
+export const metadata = {
+  title:
+    "Frequently Asked Questions | Answers to Your Home Remodeling and Repair Questions",
+  description:
+    "Spokane home owners need to know about Spokane Home Pros and how we operate. Our FAQ page is here to help.",
+};
+
 const faqs = [
   {
     question: "What types of home remodeling services do you offer?",
