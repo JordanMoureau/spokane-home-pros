@@ -5,7 +5,7 @@ import CheckList from "../components/CheckList";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Spokane Kitchen & Bathroom Remodeling | Home Pros Services",
+  title: "Our Services | Renovation Experts",
   description:
     "Trusted home remodeling services in Spokane WA. Specializing in kitchen renovations, bathroom upgrades, and flooring installation.",
 };
@@ -17,6 +17,39 @@ export default function Services() {
     "Flooring & Tile Installation",
     "Exterior Improvements",
     "Custom Projects",
+  ];
+
+  const servicesCards = [
+    {
+      title: "Home Repairs",
+      description:
+        "We take care of the everyday issues that pile up—door repairs, drywall fixes, trim touch-ups, and more. If it’s broken, our Spokane home pros will fix it right the first time, with clear communication and no corner-cutting.",
+    },
+    {
+      title: "Kitchen Remodeling",
+      description:
+        "Our Spokane kitchen remodeling team designs and builds kitchens that work for real life—better storage, smarter layouts, and finishes that look good and last. We handle everything from cabinets and counters to plumbing and electrical.",
+    },
+    {
+      title: "Bathroom Renovation",
+      description:
+        "Ready to upgrade your bathroom? We specialize in Spokane bathroom renovations that blend style and function—think custom tile, modern fixtures, and layouts designed around your needs. We make the process smooth from demo to final clean-up.",
+    },
+    {
+      title: "Flooring & Tile",
+      description:
+        "We install hardwood, tile, LVP, and laminate flooring across Spokane homes with precision and care. Whether you're updating a single room or the whole house, our flooring experts deliver clean lines and durable results.",
+    },
+    {
+      title: "Exterior Improvements",
+      description:
+        "From siding repairs and new paint to deck builds and porch makeovers, our Spokane exterior remodeling crew helps boost curb appeal and weatherproof your home. We’ll make sure your house looks as good on the outside as it feels inside.",
+    },
+    {
+      title: "Custom Builds",
+      description:
+        "Have a unique project? Let’s build it. Our team tackles custom home remodeling jobs across Spokane—from built-in shelves and custom closets to full wall removals and open-concept transformations.",
+    },
   ];
 
   return (
@@ -51,7 +84,7 @@ export default function Services() {
       </div>
       <Testimonials />
 
-      <div className="py-30 px-6 max-w-3xl text-center">
+      <div className=" px-6 max-w-3xl text-center">
         <h1 className="text-5xl mb-10">Quality Home Repairs & Renovations</h1>
         <p>
           We handle everything from small repairs to start to finish home
@@ -62,6 +95,31 @@ export default function Services() {
         </p>
         <CheckList items={checklistItems} />
         <ContactButtons />
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl px-6 ">
+        {servicesCards.map((service, index) => (
+          <div
+            key={index}
+            className="bg-[#ffba42] shadow-sm p-8  flex flex-col  hover:shadow-2xl transition"
+          >
+            <h2 className="text-3xl font-bold mb-4">{service.title}</h2>
+            <p>{service.description}</p>
+          </div>
+        ))}
+      </div>
+
+      <div className="py-20 px-6 max-w-3xl text-center">
+        <h2 className="text-4xl font-semibold mb-4">
+          Proudly Serving Spokane and Beyond
+        </h2>
+        <p>
+          Spokane Home Pros is proud to offer home remodeling and renovation
+          services throughout Eastern Washington and North Idaho. We frequently
+          work in Spokane Valley, Liberty Lake, Coeur d'Alene, Post Falls, and
+          surrounding areas. No matter where you're located, our team brings the
+          same dedication to quality, clear communication, and lasting results.
+        </p>
       </div>
 
       <div

@@ -55,6 +55,23 @@ export default function QuotePage() {
             </h1>
           </div>
         </div>
+
+        <div className="max-w-4xl mt-20 text-center">
+          <h2 className="text-5xl  font-semibold mb-4">What Happens Next</h2>
+          <p className="mb-2 max-w-2xl">
+            After you request a quote, our team will reach out to you for more
+            details about your project so we can deliver you a free, no pressure
+            quote. Our team is friendly, reliable and here to help. You can ask
+            all your questions about home remodeling, renovations and repairs.
+            We're proud to be one of Spokane's premier contractor services.
+            <br />
+            <br />
+            Once we've delivered the quote, you have time to decide if it works
+            for you. At that point, our home professionals will get you on the
+            schedule to start work and explain the timeline for your home
+            renovation or repair project.
+          </p>
+        </div>
       </section>
     </main>
   );
