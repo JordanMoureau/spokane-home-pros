@@ -19,8 +19,7 @@ const raleway = Raleway({
 });
 
 export const metadata = {
-  title:
-    "Spokane Home Remodeling Experts | Kitchen Remodels, Exteriors, Bathroom, Flooring and Home Repair",
+  title: "Spokane Home Remodeling Experts | Renovations & Repair for Spokane",
   description:
     "Top-rated remodeling contractors in Spokane WA specializing in bathroom renovation, kitchen remodeling, and flooring installation. Trusted home improvement services.",
   openGraph: {

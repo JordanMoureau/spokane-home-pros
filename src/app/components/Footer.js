@@ -42,14 +42,14 @@ export default function Footer() {
               </Link>
               {/* <Link href="/tips">Tips & Tricks</Link> */}
 
-              <Link href="/about-us" className="block">
+              <Link href="/why-choose-us" className="block">
                 About Us
               </Link>
               <Link href="/faq" className="block">
                 FAQ
               </Link>
 
-              <Link href="/contact" className="block">
+              <Link href="/quote" className="block">
                 Contact Us
               </Link>
             </nav>
