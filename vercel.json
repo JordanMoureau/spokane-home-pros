@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/:path*",
-      "destination": "https://www.spokanehomepros.com/:path*",
-      "permanent": true
-    }
-  ]
-}
