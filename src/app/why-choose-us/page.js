@@ -7,7 +7,7 @@ export const dynamic = "force-static";
 export const metadata = {
   title: "Why Choose Us | Spokane Remodeling Contractors You Can Trust",
   description:
-    "Fin out why homeowners in Spokane trust Spokane Home Pros for kitchen remodeling, bathroom renovations, and home improvement services. We do it once and do it right.",
+    "Find out why homeowners in Spokane trust Spokane Home Pros for kitchen remodeling, bathroom renovations, and home improvement services. We do it once and do it right.",
 };
 
 export default function WhyChooseUs() {
@@ -83,6 +83,7 @@ export default function WhyChooseUs() {
               </div>
               <div className="w-full md:w-2/3">
                 <img
+                  loading="lazy"
                   src={card.img}
                   alt={card.alt}
                   className="w-full h-full object-cover "

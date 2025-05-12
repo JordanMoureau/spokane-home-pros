@@ -3,11 +3,11 @@ import CheckList from "../components/CheckList";
 
 export default function BeforeAfter() {
   const checklistItems = [
-    "Expert Craftsmanship Guaranteed",
+    "Full-Service Home Renovation",
     "On-Time Project Completion",
     "Transparent Pricing - No Surprises",
     "Licensed & Insured Professionals",
-    "Your Satisfaction, Our Priority",
+    "Professional Kitchen & Bathroom Remodeling Services",
   ];
 
   return (
@@ -24,8 +24,9 @@ export default function BeforeAfter() {
       <div className="relative z-10 max-w-2xl mx-auto px-5">
         <h2 className="text-5xl font-bold mb-5">See the Difference</h2>
         <p className="text-lg mb-10">
-          We transform homes with precision and care. Here’s why Spokane
-          homeowners trust us:
+          Looking for reliable home repair services or planneing your next
+          renovation? We transform homes with precision and care. Here’s why
+          Spokane homeowners trust us:
         </p>
         <CheckList items={checklistItems} />
       </div>
