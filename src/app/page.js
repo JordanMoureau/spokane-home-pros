@@ -8,6 +8,12 @@ import Testimonials from "./components/Testimonial";
 
 export const dynamic = "force-static";
 
+export const metadata = {
+  title: "Spokane Home Pros | Renovation & Remodeling Experts",
+  description:
+    "Quality work is who we are. Spokane's best contractor and repair service.",
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen blue bg-white text-gray-900">

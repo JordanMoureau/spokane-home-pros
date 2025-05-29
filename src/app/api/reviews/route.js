@@ -1,8 +1,8 @@
 export async function GET(request) {
   const apiKey = "AIzaSyA4R0sGv51KxRp-RXDVr9_fL2y8F8aVm-o";
-  const placeId = null;
-
   // const placeId = "ChIJxS3rDPMZnlQR-2MpwpB3_ZQ";
+
+  const placeId = "ChIJAZo4w7hmg0ERTeHEZ6POLF8";
 
   const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,rating,reviews&key=${apiKey}`;
 
