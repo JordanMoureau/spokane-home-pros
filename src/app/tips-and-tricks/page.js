@@ -1,6 +1,6 @@
+import Link from "next/link"; // 👈 Add this line
 import { posts } from "./posts";
 import ContactButtons from "../components/ContactButtons";
-import ReactMarkdown from "react-markdown";
 
 export const dynamic = "force-static";
 
@@ -13,27 +13,46 @@ export const metadata = {
 export default function TipsPage() {
   return (
     <section className="flex blue flex-col items-center justify-center">
-      <div className="py-40 px-6 max-w-4xl text-center">
-        <h1 className="text-5xl mb-8">Home Improvement Tips & Tricks</h1>
-        <p>
-          Practical advice from Spokane’s top remodeling and renovation pros.
-          Updated weekly with new insights, ideas, and tips to help you upgrade
-          your home with confidence.
-        </p>
-      </div>
+      <div className="relative w-full mb-30">
+        {/* Background Image */}
+        <div className="absolute inset-0 bg-[url('/tipsandtricks.jpg')] bg-cover bg-center bg-no-repeat opacity-40 z-0" />
 
-      <div className="max-w-3xl w-full px-6 mb-20">
-        {posts.map((post) => (
-          <div key={post.title} className="mb-12">
-            <h2 className="text-3xl font-semibold mb-2">{post.title}</h2>
-            <p className="text-gray-500 mb-4">{post.date}</p>
-            <ReactMarkdown>{post.body}</ReactMarkdown>
+        {/* Content Container */}
+        <div className="relative z-10 flex justify-center items-center py-40 px-6">
+          <div className="max-w-3xl text-center">
+            <h1 className="text-5xl mb-8">Home Improvement Tips & Tricks</h1>
+            <p>
+              Practical advice from Spokane’s top remodeling and renovation
+              pros. Updated weekly with new insights, ideas, and tips to help
+              you upgrade your home with confidence.
+            </p>
           </div>
-        ))}
+        </div>
       </div>
 
-      <div className="w-full flex justify-center mb-20">
-        <ContactButtons />
+      <div className="max-w-3xl w-full px-4 sm:px-6 lg:px-8 py-20 mx-auto">
+        {posts.map((post) => (
+          <article
+            key={post.title}
+            className="mb-16 border-b blue border-gray-200 pb-12"
+          >
+            <header className="mb-6">
+              {/* 👇 THIS IS WHERE THE MAGIC HAPPENS */}
+              <Link href={`/tips-and-tricks/${post.slug}`}>
+                <h2 className="text-4xl font-bold mb-2 hover:underline cursor-pointer">
+                  {post.title}
+                </h2>
+              </Link>
+            </header>
+
+            <div className="leading-relaxed space-y-6 text-base max-w-3xl">
+              {/* Optional: shorten content here if it’s too long */}
+              {post.content}
+            </div>
+
+            <p className="text-sm">{post.date}</p>
+          </article>
+        ))}
       </div>
     </section>
   );

@@ -67,7 +67,7 @@ function NavBar() {
             { href: "/", label: "Home" },
             { href: "/services", label: "Services" },
             { href: "/why-choose-us", label: "Why Choose Us" },
-            // { href: "/tips-and-tricks", label: "Tips & Tricks" },
+            { href: "/tips-and-tricks", label: "Tips & Tricks" },
           ].map((link) => (
             <li key={link.href}>
               <Link

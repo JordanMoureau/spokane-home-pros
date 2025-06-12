@@ -33,13 +33,13 @@ export default function QuotePage() {
               className="flex flex-row items-center hover:opacity-90 transition"
             >
               <FaPhone className="blue mr-5" size={20} />
-              <h1 className="text-lg">(509) 862-7934</h1>
+              <h2 className="text-lg">(509) 862-7934</h2>
             </a>
-            <h1 className="text-2xl">Call Us Directly</h1>
+            <h2 className="text-2xl">Call Us Directly</h2>
           </div>
 
           <div className="w-full md:w-auto text-[#FFB229] text-center">
-            <h1 className="text-5xl font-bold">OR</h1>
+            <h2 className="text-5xl font-bold">OR</h2>
           </div>
 
           <div className="w-full md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left">
@@ -50,9 +50,9 @@ export default function QuotePage() {
               <FaEnvelope className="blue mr-5" size={20} />
               <p>spokanehomepros@gmail.com</p>
             </a>
-            <h1 className="text-xl">
+            <h2 className="text-xl">
               Email Us to Get in Touch With a Remodeling Pro
-            </h1>
+            </h2>
           </div>
         </div>
 

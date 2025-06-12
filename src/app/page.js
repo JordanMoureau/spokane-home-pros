@@ -5,6 +5,7 @@ import Cards from "./components/Cards";
 import ContactButtons from "./components/ContactButtons";
 import BeforeAfter from "./components/BeforeAfter";
 import Testimonials from "./components/Testimonial";
+import PostPreview from "./components/PostPreview"; // adjust path if needed
 
 export const dynamic = "force-static";
 
@@ -66,6 +67,8 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center">
         <Testimonials />
       </section>
+
+      <PostPreview />
 
       <GetAQuote />
     </main>

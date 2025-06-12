@@ -76,9 +76,9 @@ export default function WhyChooseUs() {
               className="bg-[#1F509A] flex flex-col md:flex-row w-full items-center shadow-lg mb-6 md:mb-0"
             >
               <div className="text-white p-6 md:w-1/3 w-full">
-                <h1 className="text-2xl md:text-4xl mb-2 font-bold">
+                <h2 className="text-2xl md:text-4xl mb-2 font-bold">
                   {card.title}
-                </h1>
+                </h2>
                 <p>{card.descr}</p>
               </div>
               <div className="w-full md:w-2/3">
@@ -94,7 +94,7 @@ export default function WhyChooseUs() {
         </div>
 
         <div className="py-10 px-4 md:px-6 max-w-3xl text-center">
-          <h1 className="text-3xl md:text-5xl mb-10">Why Spokane Home Pros?</h1>
+          <h2 className="text-3xl md:text-5xl mb-10">Why Spokane Home Pros?</h2>
           <p className="mb-6">
             Spokane homeowners choose us for everything from bathroom renovation
             and kitchen remodeling to flooring installation and home
