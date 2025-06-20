@@ -7,7 +7,32 @@ export const dynamic = "force-static";
 export const metadata = {
   title: "Tips & Tricks for Home Improvement | Spokane Home Pros",
   description:
-    "Explore practical remodeling and repair tips from Spokane's trusted home improvement experts.",
+    "Explore practical remodeling and repair tips from Spokane's trusted home-improvement experts.",
+  alternates: {
+    canonical: "https://yourdomain.com/tips-and-tricks",
+  },
+  openGraph: {
+    type: "website",
+    title: "Tips & Tricks for Home Improvement | Spokane Home Pros",
+    description:
+      "Discover practical remodeling and repair tips from Spokane’s trusted pros.",
+    url: "https://spokanehomepros.com/tips-and-tricks",
+    images: [
+      {
+        url: "/images/tips-cover.jpg", // 1200×630 preferred
+        width: 1200,
+        height: 630,
+        alt: "Remodeled Spokane kitchen with white cabinets and warm lighting",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Home-Improvement Tips & Tricks",
+    description:
+      "Weekly remodeling insights from Spokane Home Pros—level-up your space with confidence.",
+    images: ["/images/tips-cover.jpg"],
+  },
 };
 
 export default function TipsPage() {

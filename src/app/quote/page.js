@@ -16,7 +16,7 @@ export default function QuotePage() {
         <h1 className="text-5xl max-w-4xl font-bold mb-4">
           Start Your Remodel With a Fast, Free Quote from Spokane's Top Pros
         </h1>
-        <p className="text-lg max-w-2xl text-center">
+        <p className="text-lg max-w-3xl text-center">
           Tell us what you need, and we'll get back to you with a customized
           quote that fits your budget and timeline. From kitchen renovations to
           bathroom remodels and home improvements, we offer honest pricing and

@@ -52,6 +52,9 @@ export default function Footer() {
               <Link href="/quote" className="block">
                 Contact Us
               </Link>
+              <Link href="/fast-quote" className="block">
+                Fast Quote
+              </Link>
             </nav>
           </div>
         </div>
