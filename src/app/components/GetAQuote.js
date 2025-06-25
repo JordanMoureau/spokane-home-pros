@@ -13,16 +13,29 @@ export default function GetAQuote() {
     formState: { errors },
     reset,
   } = useForm();
-
   const onSubmit = async (data) => {
     try {
+      if (!window.grecaptcha) {
+        throw new Error("reCAPTCHA not loaded");
+      }
+
+      const token = await window.grecaptcha.execute(
+        "6LfpeW0rAAAAAIIDBT3O-594U-EvZxT9fcw_sdMY",
+        { action: "submit" }
+      );
+
+      const payload = {
+        ...data,
+        "g-recaptcha-response": token, // what Formspree needs
+      };
+
       const response = await fetch("https://formspree.io/f/xyzedzpl", {
         method: "POST",
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(payload),
       });
 
       if (!response.ok) {

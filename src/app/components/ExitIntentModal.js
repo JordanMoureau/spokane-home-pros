@@ -1,18 +1,17 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function ExitIntentModal({ onSubmit }) {
   const [isOpen, setIsOpen] = useState(false);
   const [phone, setPhone] = useState("");
+  const hasShownPopup = useRef(false);
 
   useEffect(() => {
-    const hasSeenPopup = sessionStorage.getItem("exitIntentShown");
-
     const handleMouseLeave = (e) => {
-      if (e.clientY <= 0 && !hasSeenPopup) {
+      if (e.clientY <= 0 && !hasShownPopup.current) {
+        hasShownPopup.current = true;
         setIsOpen(true);
-        sessionStorage.setItem("exitIntentShown", "true"); // ← session-only
       }
     };
 

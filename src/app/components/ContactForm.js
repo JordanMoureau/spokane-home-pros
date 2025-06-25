@@ -15,13 +15,28 @@ export default function ContactForm() {
 
   const onSubmit = async (data) => {
     try {
+      // Ensure grecaptcha is ready
+      if (!window.grecaptcha) {
+        throw new Error("reCAPTCHA not loaded");
+      }
+
+      const token = await window.grecaptcha.execute(
+        "6LfpeW0rAAAAAIIDBT3O-594U-EvZxT9fcw_sdMY",
+        { action: "submit" }
+      );
+
+      const payload = {
+        ...data,
+        "g-recaptcha-response": token, // Required for Formspree to validate it
+      };
+
       const response = await fetch("https://formspree.io/f/xyzedzpl", {
         method: "POST",
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(payload),
       });
 
       if (!response.ok) {

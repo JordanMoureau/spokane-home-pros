@@ -65,6 +65,11 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
 
+        <Script
+          src="https://www.google.com/recaptcha/api.js?render=6LfpeW0rAAAAAIIDBT3O-594U-EvZxT9fcw_sdMY"
+          strategy="afterInteractive"
+        ></Script>
+
         {/* Site Components */}
         <NavBar />
         {children}
