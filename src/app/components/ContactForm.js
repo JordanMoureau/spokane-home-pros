@@ -43,6 +43,13 @@ export default function ContactForm() {
         throw new Error("Form submission failed");
       }
 
+      window.gtag &&
+        window.gtag("event", "conversion", {
+          send_to: "AW-17056245661/h86QCLqoyMYaEJ3PhsU_", // insert yours
+          value: 1.0,
+          currency: "USD",
+        });
+
       setFormSuccess(true);
       reset();
     } catch (err) {
