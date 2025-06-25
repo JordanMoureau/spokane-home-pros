@@ -112,6 +112,10 @@ export default function Footer() {
           © Copyright {new Date().getFullYear()} Spokane Home Pros. All Rights
           Reserved.
         </div>
+        <div className="text-center text-sm">
+          This site is protected by reCAPTCHA and the Google Privacy Policy and
+          Terms of Service apply.
+        </div>
       </div>
     </footer>
   );

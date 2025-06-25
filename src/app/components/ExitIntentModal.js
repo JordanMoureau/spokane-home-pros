@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-export default function ExitIntentModal({ onSubmit }) {
+export default function ExitIntentModal() {
   const [isOpen, setIsOpen] = useState(false);
   const [phone, setPhone] = useState("");
   const hasShownPopup = useRef(false);
@@ -23,10 +23,43 @@ export default function ExitIntentModal({ onSubmit }) {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (!phone) return;
-    onSubmit(phone);
-    setIsOpen(false);
+
+    try {
+      if (!window.grecaptcha) {
+        throw new Error("reCAPTCHA not loaded");
+      }
+
+      const token = await window.grecaptcha.execute(
+        "6LfpeW0rAAAAAIIDBT3O-594U-EvZxT9fcw_sdMY",
+        { action: "submit" }
+      );
+
+      const payload = {
+        phone,
+        source: "exit-intent",
+        "g-recaptcha-response": token,
+      };
+
+      const response = await fetch("https://formspree.io/f/xblypaog", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
+      setIsOpen(false);
+      setPhone("");
+    } catch (err) {
+      console.error("Exit intent form error:", err);
+    }
   };
 
   if (!isOpen) return null;
