@@ -13,6 +13,7 @@ export default function GetAQuote() {
     formState: { errors },
     reset,
   } = useForm();
+
   const onSubmit = async (data) => {
     try {
       if (!window.grecaptcha) {
@@ -26,7 +27,7 @@ export default function GetAQuote() {
 
       const payload = {
         ...data,
-        "g-recaptcha-response": token, // what Formspree needs
+        "g-recaptcha-response": token,
       };
 
       const response = await fetch("https://formspree.io/f/xyzedzpl", {
@@ -38,19 +39,19 @@ export default function GetAQuote() {
         body: JSON.stringify(payload),
       });
 
-      if (!response.ok) {
-        throw new Error("Form submission failed");
+      if (response.ok) {
+        window.gtag &&
+          window.gtag("event", "conversion", {
+            send_to: "AW-17056245661/h86QCLqoyMYaEJ3PhsU_",
+            value: 1.0,
+            currency: "USD",
+          });
+
+        setFormSuccess(true);
+        reset();
+      } else {
+        throw new Error("Formspree rejected the submission");
       }
-
-      window.gtag &&
-        window.gtag("event", "conversion", {
-          send_to: "AW-17056245661/h86QCLqoyMYaEJ3PhsU_", // insert yours
-          value: 1.0,
-          currency: "USD",
-        });
-
-      setFormSuccess(true);
-      reset();
     } catch (err) {
       console.error("Form error:", err);
     }

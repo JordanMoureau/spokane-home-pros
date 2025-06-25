@@ -51,19 +51,19 @@ export default function ExitIntentModal() {
         body: JSON.stringify(payload),
       });
 
-      if (!response.ok) {
-        throw new Error("Form submission failed");
+      if (response.ok) {
+        window.gtag &&
+          window.gtag("event", "conversion", {
+            send_to: "AW-17056245661/h86QCLqoyMYaEJ3PhsU_",
+            value: 1.0,
+            currency: "USD",
+          });
+
+        setIsOpen(false);
+        setPhone("");
+      } else {
+        throw new Error("Formspree rejected the submission");
       }
-
-      window.gtag &&
-        window.gtag("event", "conversion", {
-          send_to: "AW-17056245661/h86QCLqoyMYaEJ3PhsU_", // insert yours
-          value: 1.0,
-          currency: "USD",
-        });
-
-      setIsOpen(false);
-      setPhone("");
     } catch (err) {
       console.error("Exit intent form error:", err);
     }

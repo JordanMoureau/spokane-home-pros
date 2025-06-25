@@ -15,7 +15,6 @@ export default function ContactForm() {
 
   const onSubmit = async (data) => {
     try {
-      // Ensure grecaptcha is ready
       if (!window.grecaptcha) {
         throw new Error("reCAPTCHA not loaded");
       }
@@ -27,7 +26,7 @@ export default function ContactForm() {
 
       const payload = {
         ...data,
-        "g-recaptcha-response": token, // Required for Formspree to validate it
+        "g-recaptcha-response": token,
       };
 
       const response = await fetch("https://formspree.io/f/xyzedzpl", {
@@ -39,19 +38,24 @@ export default function ContactForm() {
         body: JSON.stringify(payload),
       });
 
-      if (!response.ok) {
-        throw new Error("Form submission failed");
+      // ✅ Only continue if the response is OK
+      if (response.ok) {
+        // Fire conversion tracking ONLY after confirmed success
+        window.gtag &&
+          window.gtag("event", "conversion", {
+            send_to: "AW-17056245661/h86QCLqoyMYaEJ3PhsU_",
+            value: 1.0,
+            currency: "USD",
+          });
+
+        // Then show success message and reset form
+        setFormSuccess(true);
+        reset();
+      } else {
+        throw new Error(
+          `Formspree rejected submission with status ${response.status}`
+        );
       }
-
-      window.gtag &&
-        window.gtag("event", "conversion", {
-          send_to: "AW-17056245661/h86QCLqoyMYaEJ3PhsU_", // insert yours
-          value: 1.0,
-          currency: "USD",
-        });
-
-      setFormSuccess(true);
-      reset();
     } catch (err) {
       console.error("Form error:", err);
     }
