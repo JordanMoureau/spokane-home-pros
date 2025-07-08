@@ -1,6 +1,7 @@
 import ContactForm from "../components/ContactForm";
 import ExitIntentWrapper from "../components/ExitIntentWrapper";
 import { FaStar, FaPhone, FaEnvelope } from "react-icons/fa";
+import Testimonials from "../components/Testimonial";
 
 export const dynamic = "force-static";
 
@@ -16,11 +17,13 @@ export default function FastQuotePage() {
       {/* 🔒 Hero + trust bar */}
       <section className="flex flex-col items-center text-center py-16 px-6">
         <h1 className="text-5xl max-w-4xl font-bold mb-4">
-          Get Your Free Remodeling Quote in&nbsp;24 Hours
+          Tried of flaky contractors who overcharge you and leave half finished
+          work? <br /> <br /> Yeah. We are too.
         </h1>
         <p className="text-lg max-w-3xl">
-          No pressure. No surprises. Just honest pricing from Spokane’s
-          top-rated kitchen, bathroom, and home-upgrade pros.
+          Give us 30 seconds. We'll get you with a top-rated Spokane contractor
+          who won't ghost, overcharge or pressure you. Just clear quotes and
+          good work.
         </p>
 
         {/* ⭐ Trust badge bar */}
@@ -35,31 +38,16 @@ export default function FastQuotePage() {
           <div className="font-semibold">100+ home renovations completed</div>
         </div>
 
+        <p className="text-sm"></p>
+
         {/* 📄 Lead form */}
         <div className="mt-10 w-full max-w-2xl">
           <ContactForm />
         </div>
 
-        {/* ✅ Testimonial snippet */}
-        <div className="bg-white/80 rounded-2xl shadow p-8 mt-16 max-w-3xl">
-          <p className="italic text-lg leading-relaxed">
-            “Spokane Home Pros took our outdated kitchen and turned it into a
-            space we actually love cooking in. On time, on budget, zero stress.”
-          </p>
-          <p className="font-semibold mt-4">— Maria W., Spokane Valley</p>
+        <div className="bg-white/70 rounded-2xl mt-20">
+          <Testimonials />
         </div>
-
-        {/* 👣 What happens next */}
-        <div className="max-w-4xl mt-20 text-center">
-          <h2 className="text-4xl font-semibold mb-4">What Happens Next</h2>
-          <p className="text-lg max-w-2xl mx-auto">
-            Submit your request and we’ll call or email within 24 hours to learn
-            about your project. We’ll send a free, no-obligation quote—then, if
-            it’s a fit, schedule your remodel and map out every step.
-            Stress-free, on-time, on-budget.
-          </p>
-        </div>
-
         {/* ☎ / ✉ Quick-contact strip */}
         <div className="bg-[#FFDDA6] mt-14 p-10 w-full max-w-5xl rounded-4xl flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="w-full md:w-1/3 flex flex-col items-center">
