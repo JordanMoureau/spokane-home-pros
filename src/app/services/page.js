@@ -68,8 +68,11 @@ export default function Services() {
   return (
     <section className="flex blue flex-col items-center justify-center">
       <div className="py-40 px-6 max-w-4xl text-center">
-        <h1 className="text-5xl">We Are Spokane's Home Pros</h1>
-        <h2 className="text-5xl mb-8">Your Renovation Experts</h2>
+        <h1 className="text-5xl mb-8">
+          We Are Spokane's Home Pros
+          <br /> Your Renovation Experts
+        </h1>
+
         <p>
           At Spokane Home Pros, we believe in quality craftsmanship, honest
           pricing, and a job done right the first time. Our team brings years of

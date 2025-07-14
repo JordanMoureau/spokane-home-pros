@@ -19,7 +19,28 @@ const raleway = Raleway({
 });
 
 const jsonLd = {
-  // your structured data – unchanged
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Spokane Home Pros",
+  image: "https://spokanehomepros.com/logo.png",
+  url: "https://spokanehomepros.com",
+  telephone: "+1-509-701-2711",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "2624 N Division St",
+    addressLocality: "Spokane",
+    addressRegion: "WA",
+    postalCode: "99207",
+    addressCountry: "US",
+  },
+  openingHours: "Mo-Fr 08:00-17:00",
+  priceRange: "$$",
+  sameAs: [
+    "https://www.facebook.com/spokanehomepros",
+    "https://www.instagram.com/spokanehomepros",
+  ],
+  description:
+    "Spokane Home Pros is a top-rated renovation contractor serving Liberty Lake and the greater Spokane area. We specialize in bathroom remodeling, kitchen updates, and full-service home renovations.",
 };
 
 export const metadata = {
