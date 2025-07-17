@@ -1,5 +1,363 @@
 export const posts = [
   {
+    title: "Room Additions in Spokane: Expand Without Moving",
+    date: "2025-07-17",
+    slug: "room-additions-spokane",
+    preview:
+      "Running out of space in your Spokane home? A room addition could be the perfect solution. Learn what to expect with cost, planning, and timeline.",
+    content: (
+      <>
+        <div className="leading-relaxed text-base space-y-6">
+          <p>
+            Outgrowing your home doesn't have to mean moving out. In Spokane,
+            adding on to your existing space is often a smarter (and more
+            affordable) way to get the room you need—without saying goodbye to
+            the neighborhood you love.
+          </p>
+
+          <p>
+            Whether it's a new bedroom, expanded kitchen, home office, or
+            multi-room addition, Spokane Home Pros connects homeowners with
+            expert contractors who know how to build right—on budget, and up to
+            code.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            1. Plan Around Function
+          </h2>
+          <p>
+            Start by identifying your biggest pain points. Need a guest suite? A
+            bigger family room? More space for work or hobbies? Clarifying how
+            you’ll use the space will shape the layout and design from day one.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            2. Consider Property Lines & Permits
+          </h2>
+          <p>
+            Spokane County has specific zoning and building requirements—like
+            setbacks, height restrictions, and total square footage caps. A good
+            contractor will help you navigate the permitting process and ensure
+            your addition is fully compliant.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            3. Tie It Into the Existing Structure
+          </h2>
+          <p>
+            A well-done addition should feel like it’s always been part of your
+            home. That means matching rooflines, exterior finishes, and interior
+            materials wherever possible. Seamless design = higher resale value.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            4. Think Long-Term ROI
+          </h2>
+          <p>
+            Room additions in Spokane typically cost $150–$300 per square foot,
+            depending on size and finish level. But if done right, they can
+            offer huge returns in daily comfort—and resale value down the road.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            5. Don’t Skip the Design Phase
+          </h2>
+          <p>
+            Before hammers swing, detailed plans save time, money, and stress.
+            Work with a pro to create a layout that fits your lot, lifestyle,
+            and budget—and avoids costly mid-build changes.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            Ready to Add On?
+          </h2>
+          <p>
+            Spokane Home Pros will help you plan and build a room addition that
+            adds value, solves problems, and fits your home like it was always
+            meant to be there.
+          </p>
+
+          <p>
+            <a
+              href="/quote"
+              className="underline hover:text-blue-800 font-medium"
+            >
+              Request a free room addition quote →
+            </a>
+          </p>
+
+          <p>
+            🔗 Related Reads:{" "}
+            <a
+              href="/tips-and-tricks/basement-finishing-spokane"
+              className="underline hover:text-blue-800"
+            >
+              Basement Finishing in Spokane: Add Space, Value & Comfort
+            </a>
+            ,{" "}
+            <a
+              href="/tips-and-tricks/renovations-spokane-2025"
+              className="underline hover:text-blue-800"
+            >
+              10 Renovations Spokane Homeowners Are Scrambling to Get Done
+            </a>
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: "Basement Finishing in Spokane: Add Space, Value & Comfort",
+    date: "2025-07-17",
+    slug: "basement-finishing-spokane",
+    preview:
+      "Finishing your basement is one of the smartest ways to add usable space to your Spokane home. Here's what to know before you build.",
+    content: (
+      <>
+        <div className="leading-relaxed text-base space-y-6">
+          <p>
+            An unfinished basement is a goldmine of potential. Whether you're
+            dreaming of a guest suite, a home office, or the ultimate hangout
+            zone, finishing your basement can add serious value and square
+            footage to your <strong>Spokane home</strong>—without the cost of a
+            full addition.
+          </p>
+
+          <p>
+            At Spokane Home Pros, we’ve helped countless homeowners transform
+            cold, concrete spaces into warm, inviting lower levels. Here’s what
+            you need to know before diving into your{" "}
+            <strong>basement finishing Spokane</strong> project.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            1. Decide How You’ll Use the Space
+          </h2>
+          <p>
+            Will it be a media room? A rental unit? A home gym? Knowing the
+            purpose of your basement will guide everything from layout to
+            lighting.
+          </p>
+          <p>Spokane families often choose:</p>
+          <ul className="list-disc list-inside pl-4 space-y-1">
+            <li>Guest bedrooms with egress windows</li>
+            <li>Playrooms and teen lounges</li>
+            <li>Basement home offices</li>
+            <li>Game rooms and bars</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            2. Moisture Matters—Big Time
+          </h2>
+          <p>
+            Spokane’s wet winters and spring melts mean waterproofing is a must.
+            We always inspect for existing leaks or moisture problems before
+            finishing begins—and recommend sump pumps, drainage solutions, or
+            sealing as needed.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            3. Insulation & Comfort
+          </h2>
+          <p>
+            A finished basement should feel like the rest of your home—not a
+            chilly afterthought. Proper insulation, subfloor systems, and zoning
+            for HVAC go a long way in making the space livable year-round.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            4. Permits & Code Compliance
+          </h2>
+          <p>
+            All finished basements in Spokane must meet local building codes,
+            especially for ceiling height, emergency egress, electrical, and
+            ventilation. Our team handles permits and inspections so you don’t
+            have to stress.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            5. Don’t Forget Storage
+          </h2>
+          <p>
+            Smart basement design balances open living areas with hidden
+            storage. Think built-in closets, under-stair shelving, and
+            mechanical room access without making things feel cluttered.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            Thinking About Finishing Your Basement?
+          </h2>
+          <p>
+            Spokane Home Pros works with trusted local contractors to deliver
+            stunning, code-compliant basement finishes that match your lifestyle
+            and budget.
+          </p>
+
+          <p>
+            <a
+              href="/quote"
+              className="underline hover:text-blue-800 font-medium"
+            >
+              Request a free basement finishing quote →
+            </a>
+          </p>
+
+          <p>
+            🔗 Related Reads:{" "}
+            <a
+              href="/tips-and-tricks/renovations-spokane-2025"
+              className="underline hover:text-blue-800"
+            >
+              10 Renovations Spokane Homeowners Are Scrambling to Get Done
+            </a>
+            ,{" "}
+            <a
+              href="/tips-and-tricks/home-additions-spokane"
+              className="underline hover:text-blue-800"
+            >
+              Custom Home Additions in Spokane: Timeline, Cost & Planning
+            </a>
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: "Kitchen Remodeling in Spokane: Top Tips for Style & Function",
+    date: "2025-07-17",
+    slug: "kitchen-remodeling-spokane",
+    preview:
+      "Thinking about upgrading your kitchen? Discover expert remodeling tips Spokane homeowners can use to get style, function, and lasting value from their kitchen renovation.",
+    content: (
+      <>
+        <div className="leading-relaxed text-base space-y-6">
+          <p>
+            If your Spokane kitchen is feeling outdated, cramped, or just
+            doesn’t spark joy anymore, a remodel might be the perfect solution.
+            At Spokane Home Pros, we specialize in{" "}
+            <strong>kitchen remodeling Spokane</strong> homeowners trust to
+            combine functionality, beauty, and long-lasting quality.
+          </p>
+
+          <p>
+            But how do you make sure your kitchen remodel is actually worth the
+            investment? Here are our top expert tips to help Spokane homeowners
+            get the most from their <strong>remodeling project</strong>.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            1. Start with a Plan—Not a Pinterest Board
+          </h2>
+          <p>
+            We get it—you’ve been dreaming of a white quartz waterfall island.
+            But before jumping into materials, think about how you actually use
+            your kitchen. Do you host family holidays? Need more counter space
+            for meal prep? Hate how the fridge is across the room from
+            everything else?
+          </p>
+          <p>
+            A good <strong>kitchen remodeling</strong> plan blends form and
+            function—so you’re not just upgrading looks, but making the space
+            work for your life.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            2. Prioritize Flow and Lighting
+          </h2>
+          <p>
+            One of the biggest upgrades we see in Spokane homes is improving
+            traffic flow and natural light. Knock down a wall. Widen a walkway.
+            Add task lighting or a bigger window above the sink.
+          </p>
+          <p>
+            These small structural changes can have a huge impact on comfort and
+            usability—especially in older homes throughout the{" "}
+            <strong>Spokane area</strong>.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            3. Invest in Quality Materials
+          </h2>
+          <p>
+            Sure, that off-brand cabinet deal online looks good… until it warps
+            after one winter. In the Pacific Northwest, moisture and temperature
+            shifts matter. We always recommend choosing{" "}
+            <strong>high quality</strong>, durable materials that will stand up
+            to real family life.
+          </p>
+          <p>
+            We work closely with local suppliers to ensure your kitchen isn’t
+            just beautiful—it’s built to last.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            4. Don’t Skip the Small Stuff
+          </h2>
+          <p>
+            Drawer organizers. Pull-out shelves. That one cabinet no one can
+            ever reach? These are the details that transform a remodel from
+            “nice” to <strong>custom home remodeling Spokane</strong>–level
+            luxury.
+          </p>
+          <p>
+            Our clients love the difference when we bring{" "}
+            <strong>attention to detail</strong> to every corner of their new
+            space.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            5. Hire a Team with Experience
+          </h2>
+          <p>
+            You don’t want someone “learning as they go” with your kitchen. With{" "}
+            <strong>years of experience</strong> serving the{" "}
+            <strong>Spokane Valley WA</strong> and surrounding neighborhoods,
+            Spokane Home Pros has helped hundreds of homeowners complete
+            stunning <strong>remodeling projects</strong>—on time, and on
+            budget.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-10 mb-4">
+            Ready to Start Your Kitchen Remodel?
+          </h2>
+          <p>
+            We’re here to help you design a space that fits your life, your
+            style, and your budget. Whether it’s a complete{" "}
+            <strong>home remodel Spokane</strong> project or just your kitchen,
+            we’ll walk you through every step—from planning to the final reveal.
+          </p>
+
+          <p>
+            <a
+              href="/quote"
+              className="underline hover:text-blue-800 font-medium"
+            >
+              Request a free kitchen remodel quote →
+            </a>
+          </p>
+
+          <p>
+            🔗 Related Reads:{" "}
+            <a
+              href="/tips-and-tricks/renovations-spokane-2025"
+              className="underline hover:text-blue-800"
+            >
+              10 Renovations Spokane Homeowners Are Scrambling to Get Done
+            </a>
+            ,{" "}
+            <a
+              href="/tips-and-tricks/hiring-a-remodeling-contractor-spokane"
+              className="underline hover:text-blue-800"
+            >
+              Guide to Hiring a Remodeling Contractor in Spokane
+            </a>
+          </p>
+        </div>
+      </>
+    ),
+  },
+
+  {
     title: "Top Outdoor Living Trends Spokane Homeowners Love",
     date: "2025-06-12",
     slug: "outdoor-living-trends-spokane",

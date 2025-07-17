@@ -19,15 +19,15 @@ export default function PostPreview() {
         {randomPosts.map((post) => (
           <div
             key={post.slug}
-            className="bg-[#1f509a] text-white rounded-lg p-6 hover:shadow-lg transition-shadow"
+            className=" blue rounded-lg p-6 hover:shadow-lg transition-shadow"
           >
             <h3 className="text-3xl font-bold mb-2">{post.title}</h3>
             <p>{post.preview}</p>
             <Link
               href={`/tips-and-tricks/${post.slug}`}
-              className="inline-block mt-4 text-white underline hover:text-[#f57c00]"
+              className="inline-block mt-4 underline hover:text-[#f57c00]"
             >
-              Read More →
+              Get Expert Tips for your Spokane Home →
             </Link>
           </div>
         ))}
