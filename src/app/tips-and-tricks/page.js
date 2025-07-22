@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Explore practical remodeling and repair tips from Spokane's trusted home-improvement experts.",
   alternates: {
-    canonical: "https://yourdomain.com/tips-and-tricks",
+    canonical: "https://spokanehomepros.com/tips-and-tricks",
   },
   openGraph: {
     type: "website",

@@ -6,6 +6,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
+  <!-- Core Pages -->
   <url>
     <loc>https://spokanehomepros.com/</loc>
     <lastmod>2025-04-23T18:34:37.404Z</lastmod>
@@ -63,8 +64,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://spokanehomepros.com/tips-and-tricks/basement-finishing-spokane</loc>
+    <lastmod>2025-07-22T08:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://spokanehomepros.com/tips-and-tricks/room-additions-spokane</loc>
+    <lastmod>2025-07-22T08:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://spokanehomepros.com/tips-and-tricks/kitchen-remodeling-spokane</loc>
+    <lastmod>2025-07-22T08:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://spokanehomepros.com/tips-and-tricks</loc>
-    <lastmod>2025-06-22T05:50:00Z</lastmod>
+    <lastmod>2025-07-22T08:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
