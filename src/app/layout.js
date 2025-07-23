@@ -92,20 +92,13 @@ export default function RootLayout({ children }) {
         ></Script>
 
         <Script
-          id="otto-dynamic-optimization"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-      var script = document.createElement("script");
-      script.setAttribute("nowprocket", "");
-      script.setAttribute("nitro-exclude", "");
-      script.src = "https://dashboard.searchatlas.com/scripts/dynamic_optimization.js";
-      script.dataset.uuid = "07920c55-ad33-4a4c-b405-118339593b2f";
-      script.id = "sa-dynamic-optimization-loader";
-      document.head.appendChild(script);
-    `,
-          }}
-        />
+          nowprocket
+          nitro-exclude
+          type="text/javascript"
+          id="sa-dynamic-optimization"
+          data-uuid="07920c55-ad33-4a4c-b405-118339593b2f"
+          src="data:text/javascript;base64,dmFyIHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO3NjcmlwdC5zZXRBdHRyaWJ1dGUoIm5vd3Byb2NrZXQiLCAiIik7c2NyaXB0LnNldEF0dHJpYnV0ZSgibml0cm8tZXhjbHVkZSIsICIiKTtzY3JpcHQuc3JjID0gImh0dHBzOi8vZGFzaGJvYXJkLnNlYXJjaGF0bGFzLmNvbS9zY3JpcHRzL2R5bmFtaWNfb3B0aW1pemF0aW9uLmpzIjtzY3JpcHQuZGF0YXNldC51dWlkID0gIjA3OTIwYzU1LWFkMzMtNGE0Yy1iNDA1LTExODMzOTU5M2IyZiI7c2NyaXB0LmlkID0gInNhLWR5bmFtaWMtb3B0aW1pemF0aW9uLWxvYWRlciI7ZG9jdW1lbnQuaGVhZC5hcHBlbmRDaGlsZChzY3JpcHQpOw=="
+        ></Script>
 
         {/* Site Components */}
         <NavBar />
