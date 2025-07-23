@@ -91,6 +91,22 @@ export default function RootLayout({ children }) {
           strategy="afterInteractive"
         ></Script>
 
+        <Script
+          id="otto-dynamic-optimization"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+      var script = document.createElement("script");
+      script.setAttribute("nowprocket", "");
+      script.setAttribute("nitro-exclude", "");
+      script.src = "https://dashboard.searchatlas.com/scripts/dynamic_optimization.js";
+      script.dataset.uuid = "07920c55-ad33-4a4c-b405-118339593b2f";
+      script.id = "sa-dynamic-optimization-loader";
+      document.head.appendChild(script);
+    `,
+          }}
+        />
+
         {/* Site Components */}
         <NavBar />
         {children}
