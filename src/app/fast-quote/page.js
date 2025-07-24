@@ -49,7 +49,7 @@ export default function FastQuotePage() {
           <Testimonials />
         </div>
         {/* ☎ / ✉ Quick-contact strip */}
-        <div className="bg-[#FFDDA6] mt-14 p-10 w-full max-w-5xl rounded-4xl flex flex-col md:flex-row items-center justify-between gap-6">
+        {/* <div className="bg-[#FFDDA6] mt-14 p-10 w-full max-w-5xl rounded-4xl flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="w-full md:w-1/3 flex flex-col items-center">
             <a
               href="tel:5098627934"
@@ -75,7 +75,7 @@ export default function FastQuotePage() {
             </a>
             <h2 className="text-lg mt-2">Prefer Email? We’ve Got You</h2>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* 🪤 Exit-intent modal */}
