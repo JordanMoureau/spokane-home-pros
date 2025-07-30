@@ -45,7 +45,7 @@ export default function PostPage({ params }) {
       <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
 
       <p className="text-sm mb-8">{post.date}</p>
-      <img className="my-10" src={post.image} />
+
       <div className="prose prose-lg">{post.content}</div>
     </section>
   );

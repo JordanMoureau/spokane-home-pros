@@ -1,5 +1,657 @@
 export const posts = [
   {
+    title: "Common Bathroom Remodel Mistakes and How To Avoid Them",
+    date: "2025-07-30",
+    slug: "spokane-bathroom-remodel-mistakes",
+    preview: "",
+    content: (
+      <div className="leading-relaxed text-base space-y-6">
+        <figure>
+          <img
+            src="https://storage.googleapis.com/content-assistant-images-temp/45da6e18-8c6e-4a82-851d-5ca6fed72206.webp"
+            width="initial"
+            height="initial"
+            alt="Modern bathroom renovation showcasing stylish fixtures and elegant design"
+            title=""
+          />
+        </figure>
+        <p>
+          A poorly planned bathroom renovation can derail your budget, timeline,
+          and resale value, but by identifying common remodel bathroom mistakes
+          early—such as planning oversights, budget overruns, and contractor
+          errors—you can steer your project toward success. This guide pinpoints
+          the biggest pitfalls in bathroom renovation projects, from design and
+          plumbing to ventilation, and offers proven strategies to avoid them.
+          You will discover how to anticipate unexpected costs, select durable
+          materials, vet a reliable bathroom contractor, and safeguard long-term
+          value and accessibility. Read on to master planning, budgeting, DIY
+          risks, layout optimization, technical details, moisture control,
+          project management, and sustainable design so your bathroom upgrade
+          enhances comfort and home equity.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Are the Most Common Bathroom Renovation Mistakes to Watch For?
+        </h2>
+        <p>
+          Planning errors, budget miscalculations, DIY pitfalls, and hiring the
+          wrong bathroom contractor are the top risk factors in bathroom
+          renovation. Addressing these areas first builds a solid foundation for
+          design decisions.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          Which Planning Errors Cause Bathroom Remodel Failures?
+        </h2>
+        <p>
+          Insufficient measurement and missing scope definition derail remodel
+          bathroom projects by leading to fixture conflicts and permit delays.
+          Homeowners often underestimate demolition needs, ignore code
+          requirements, and skip detailed floor plans.
+        </p>
+        <p>Key planning missteps include:</p>
+        <ul>
+          <li>
+            Ignoring precise dimensions for vanities, showers, and door swings.
+          </li>
+          <li>
+            Failing to verify plumbing and electrical locations before
+            demolition.
+          </li>
+          <li>Skipping permit research and code compliance checks.</li>
+        </ul>
+        <p>
+          Proper planning integrates a detailed floor plan, site inspection, and
+          permit timeline to prevent rework and project delays, setting the
+          stage for accurate budgeting.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Do Budgeting Mistakes Impact Your Bathroom Renovation?
+        </h2>
+        <figure>
+          <img
+            src="https://storage.googleapis.com/content-assistant-images-temp/b919176c-8097-4c33-908c-3e0c01749678.webp"
+            width="initial"
+            height="initial"
+            alt="Homeowner budgeting for bathroom renovation with materials and plans"
+            title=""
+          />
+        </figure>
+        <p>
+          Underestimating costs and omitting a contingency fund frequently
+          result in budget overruns and project halts. A 15–20% contingency
+          cushion protects against unexpected plumbing repairs, material price
+          spikes, or specialized labor fees.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          Budgeting for Home Renovations
+        </h2>
+        <p>
+          A contingency fund of 15-20% of the total budget is recommended to
+          cover unexpected costs during a home renovation project. This
+          financial buffer helps homeowners manage unforeseen issues like
+          plumbing repairs or material price increases, preventing budget
+          overruns and project delays.
+        </p>
+
+        <table>
+          <tr>
+            <th>Entity</th>
+            <th>Attribute</th>
+            <th>Value</th>
+          </tr>
+          <tr>
+            <td>Contingency Fund</td>
+            <td>Recommended Percentage</td>
+            <td>15–20% of total budget</td>
+          </tr>
+          <tr>
+            <td>Material Selection</td>
+            <td>Cost Variation</td>
+            <td>+10–25% fluctuations due to supply issues</td>
+          </tr>
+          <tr>
+            <td>Labor Estimates</td>
+            <td>Accuracy Margin</td>
+            <td>±10% based on regional contractor rates</td>
+          </tr>
+        </table>
+        <p>
+          Building a robust budget prevents mid-project compromises and aligns
+          cost expectations with reality, allowing smoother progression into
+          material selection and DIY considerations.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Are the Risks of DIY Bathroom Remodels?
+        </h2>
+        <p>
+          DIY bathroom renovations increase the risk of code violations, water
+          damage, and substandard finishes by up to 60%. Without professional
+          expertise, improper tile installation, faulty plumbing connections,
+          and inadequate waterproofing often occur.
+        </p>
+        <p>Homeowners attempting DIY should consider:</p>
+        <ol>
+          <li>Permit avoidance leads to costly code corrections.</li>
+          <li>
+            Incorrect mortar mix or tile layout causing leaks and grout failure.
+          </li>
+          <li>Misrouting electrical wiring that violates safety standards.</li>
+        </ol>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          Risks of DIY Home Improvement
+        </h2>
+        <p>
+          DIY bathroom renovations can increase the risk of code violations,
+          water damage, and substandard finishes. Without professional
+          expertise, improper tile installation, faulty plumbing connections,
+          and inadequate waterproofing often occur, leading to costly repairs
+          and potential safety hazards.
+        </p>
+
+        <p>
+          Understanding these DIY pitfalls emphasizes the value of professional
+          involvement and leads naturally to evaluating contractor
+          qualifications.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          Why Is Hiring the Wrong Bathroom Contractor a Critical Mistake?
+        </h2>
+        <figure>
+          <img
+            src="https://storage.googleapis.com/content-assistant-images-temp/deb00b3a-3af6-4b95-888b-11b0c5800c43.webp"
+            width="initial"
+            height="initial"
+            alt="Homeowner consulting with a professional contractor for bathroom renovation"
+            title=""
+          />
+        </figure>
+        <p>
+          Selecting an unqualified contractor can result in shoddy workmanship,
+          missed deadlines, and uninsured liabilities. Contractors lacking
+          proper licensing or references frequently overlook building codes,
+          compromising safety and durability.
+        </p>
+        <p>Key contractor selection criteria:</p>
+        <ul>
+          <li>Verify licenses, insurance, and code certifications.</li>
+          <li>Check at least three recent project references.</li>
+          <li>Confirm detailed written estimates with scope and timeline.</li>
+        </ul>
+        <p>
+          A vetted bathroom contractor ensures legal compliance, quality
+          craftsmanship, and clear communication, which transitions you to
+          refined design and layout strategies.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Can You Avoid Design and Layout Mistakes in Your Bathroom Remodel?
+        </h2>
+        <p>
+          Effective design planning prevents cramped circulation, poor lighting,
+          and inadequate storage, ensuring both style and function in your
+          bathroom upgrade.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Are the Most Common Bathroom Layout Mistakes?
+        </h2>
+        <p>
+          Cramped layouts, misplaced fixtures, and neglected clearance lead to
+          discomfort and accessibility issues. Common errors include:
+        </p>
+        <ul>
+          <li>Positioning the toilet too close to walls or vanity.</li>
+          <li>
+            Failing to allow 30–36 inches of clear floor space for door swings.
+          </li>
+          <li>Crowding shower entrances with swinging doors.</li>
+        </ul>
+        <p>
+          Proper fixture placement and clearance planning establish a balanced
+          layout that enhances usability and sets up lighting and storage
+          solutions.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Do Lighting Mistakes Affect Bathroom Function and Style?
+        </h2>
+        <p>
+          Insufficient task and ambient layers create shadows, reduce mirror
+          visibility, and diminish aesthetic appeal. Lighting mistakes feature:
+        </p>
+        <ul>
+          <li>Reliance on a single overhead fixture for all roles.</li>
+          <li>
+            Absence of vanity lighting that leads to glare and uneven
+            illumination.
+          </li>
+          <li>Ignoring moisture-rated fixtures near wet zones.</li>
+        </ul>
+        <p>
+          Layered lighting—ambient, task, and accent—improves visibility and
+          mood, guiding material choices and electrical planning next.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Storage Mistakes Lead to Cluttered Bathrooms?
+        </h2>
+        <p>
+          Overlooking built-in niches, underestimating cabinet space, and
+          ignoring vertical storage often result in countertop clutter and
+          obstructed movement.
+        </p>
+        <p>Storage errors include:</p>
+        <ul>
+          <li>Installing shallow vanities with limited drawer depth.</li>
+          <li>Omitting recessed shower niches for toiletries.</li>
+          <li>Neglecting towel hooks or overhead shelving.</li>
+        </ul>
+        <p>
+          Integrating custom cabinetry, medicine cabinets, and open shelving
+          maintains order and influences material and finish selections for
+          durability.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How to Choose the Right Bathroom Materials to Prevent Design Failures?
+        </h2>
+        <p>
+          Selecting non-water-resistant or low-quality materials invites mold,
+          mildew, and premature wear. Material selection mistakes involve:
+        </p>
+        <ol>
+          <li>Porous flooring like untreated wood that warps with moisture.</li>
+          <li>Slick tiles that increase slip hazards.</li>
+          <li>Painted drywall instead of cement backer board in wet areas.</li>
+        </ol>
+        <p>
+          Opt for porcelain or natural stone tile, solid surface countertops,
+          and moisture-resistant backer boards to ensure longevity and seamless
+          transition into plumbing considerations.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Plumbing and Technical Mistakes Should You Avoid During Bathroom
+          Renovation?
+        </h2>
+        <p>
+          Ignoring plumbing codes, improper slope design, and electrical
+          oversights leads to leaks, backups, and safety hazards that undermine
+          your remodel.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          Which Plumbing Errors Cause Costly Repairs and Delays?
+        </h2>
+        <p>
+          Improper pipe sizing, insufficient venting, and failure to upgrade
+          outdated galvanized or PVC pipes can result in low water pressure,
+          sewer gas odors, and burst connections.
+        </p>
+        <p>Common plumbing errors:</p>
+        <ul>
+          <li>Using incorrect diameter drain pipes causing slow drainage.</li>
+          <li>Skipping vent pipe extension leading to gurgling fixtures.</li>
+          <li>
+            Failing to inspect old pipes for corrosion before connecting new
+            fixtures.
+          </li>
+        </ul>
+        <p>
+          Correct pipe sizing and thorough inspection prevent repairs, paving
+          the way for proper shower and drainage design.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Can Improper Shower and Drainage Design Lead to Problems?
+        </h2>
+        <p>
+          Incorrect shower pan slope and misaligned drain position create
+          standing water and grout erosion. A 1/4-inch per foot slope toward the
+          drain ensures complete runoff.
+        </p>
+        <p>Shower design mistakes include:</p>
+        <ul>
+          <li>Flat pans causing water pooling.</li>
+          <li>Offset drains that trap debris in corners.</li>
+          <li>
+            Omitting weep holes beneath tile pans, leading to moisture buildup.
+          </li>
+        </ul>
+        <p>
+          Addressing slope and drainage fundamentals secures water removal and
+          informs electrical safety placement near wet zones.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Electrical Safety Mistakes Are Common in Bathroom Remodels?
+        </h2>
+        <p>
+          Non-GFCI outlets, overloaded circuits, and improper fixture placement
+          near water sources pose serious shock and fire risks.
+        </p>
+        <p>Electrical errors often involve:</p>
+        <ul>
+          <li>
+            Installing standard outlets instead of GFCI-protected ones within 6
+            feet of water.
+          </li>
+          <li>Overusing extension cords for lighting or heaters.</li>
+          <li>
+            Forgetting moisture-sealed fixtures in recessed ceiling
+            installations.
+          </li>
+        </ul>
+        <p>
+          Adhering to NEC guidelines and using GFCI protection maintains safety
+          and leads into ventilation and waterproofing best practices.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Do Ventilation and Waterproofing Mistakes Affect Bathroom
+          Longevity?
+        </h2>
+        <p>
+          Inadequate ventilation and waterproofing failures accelerate mold
+          growth, structural decay, and finish deterioration, undermining
+          renovation success.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          Why Is Poor Bathroom Ventilation a Frequent Renovation Mistake?
+        </h2>
+        <p>
+          Insufficient exhaust capacity or duct length traps moisture, leading
+          to mold, peeling paint, and rotting joists. A properly sized fan
+          should remove 1 CFM per square foot of bathroom area.
+        </p>
+        <p>Ventilation missteps include:</p>
+        <ul>
+          <li>Choosing quiet, low-capacity fans under-rated for room size.</li>
+          <li>Routing ducts with multiple bends that reduce airflow.</li>
+          <li>Omitting timers or humidity sensors for automatic operation.</li>
+        </ul>
+        <p>
+          A correctly rated exhaust fan and straight ductwork prevent moisture
+          damage and segue into waterproofing protocols.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Can Waterproofing Failures Lead to Mold and Water Damage?
+        </h2>
+        <p>
+          Skipping waterproof membranes, using improper sealants, or neglecting
+          flashing around fixtures allows water to penetrate subfloors and
+          walls.
+        </p>
+        <p>Common waterproofing failures:</p>
+        <ul>
+          <li>Relying on paint-on waterproofing instead of sheet membranes.</li>
+          <li>Sealing only visible joints and ignoring hidden seams.</li>
+          <li>Foregoing backer board in tile wet areas.</li>
+        </ul>
+        <p>
+          Comprehensive waterproofing systems guard against leaks and mold,
+          setting up best practices for moisture control.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Are the Best Practices to Ensure Proper Bathroom Moisture
+          Control?
+        </h2>
+        <p>
+          Combining adequate ventilation, waterproof flooring, and
+          moisture-resistant wall assemblies controls humidity and prevents
+          damage.
+        </p>
+        <p>Key moisture-control steps:</p>
+        <ol>
+          <li>Install a high-capacity exhaust fan with humidity sensor.</li>
+          <li>Use cement board and waterproof membranes behind tiles.</li>
+          <li>Choose sealed grout and epoxy caulking in wet areas.</li>
+        </ol>
+        <p>
+          These moisture management strategies extend tile, finish, and framing
+          longevity and transition into budget and cost planning.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How to Manage Budget and Unexpected Costs in Bathroom Renovations?
+        </h2>
+        <p>
+          Proactive cost planning and contingency buffers shield projects from
+          financial surprises, ensuring steady progress and quality outcomes.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Are the Most Common Bathroom Remodel Budget Mistakes?
+        </h2>
+        <p>
+          Underestimating demolition costs, neglecting permit fees, and
+          overlooking specialized labor inflate final expenses by 20–30%.
+        </p>
+        <p>Frequent budgeting oversights:</p>
+        <ul>
+          <li>Forgetting structural or code inspections.</li>
+          <li>Omitting specialized fixture delivery and disposal fees.</li>
+          <li>
+            Failing to account for overtime or expedited material shipping.
+          </li>
+        </ul>
+        <p>
+          Recognizing these cost drivers supports a realistic budget and flows
+          into strategies for handling truly unexpected expenses.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Can You Prepare for Unexpected Bathroom Renovation Expenses?
+        </h2>
+        <p>
+          Building a 15% contingency, securing fixed-price bids for plumbing or
+          electrical work, and sourcing alternative suppliers for materials
+          mitigate surprise costs.
+        </p>
+        <p>Preparation tactics include:</p>
+        <ul>
+          <li>Obtaining multiple quotes for high-risk trades.</li>
+          <li>Reserving funds for hidden issues like mold or rot.</li>
+          <li>Tracking change orders rigorously to maintain transparency.</li>
+        </ul>
+        <p>
+          This financial readiness reinforces the value of professional
+          contractor engagement and leads to evaluating DIY versus hired labor
+          economics.
+        </p>
+        <h3>What Are the Financial Risks of DIY Bathroom Remodels?</h3>
+        <p>
+          DIY projects often overspend on rework, permit fines, and tool
+          rentals, exceeding professional quotes by up to 25%. Incorrect
+          installations can trigger insurance claims or property damage.
+        </p>
+        <p>DIY financial pitfalls:</p>
+        <ul>
+          <li>Costly corrections for code violations.</li>
+          <li>Repeat purchasing of miscut tiles or damaged materials.</li>
+          <li>
+            Delayed completion that increases interim housing or living
+            expenses.
+          </li>
+        </ul>
+        <p>
+          Understanding these financial risks emphasizes the importance of
+          choosing the right bathroom contractor for project success.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Are the Best Practices for Hiring and Working with Bathroom
+          Contractors?
+        </h2>
+        <p>
+          Vetting, clear communication, and detailed contracts with milestones
+          ensure contractors deliver quality on time and on budget.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Do You Vet and Choose the Right Bathroom Contractor?
+        </h2>
+        <p>
+          Effective vetting involves verifying licenses, bonding, insurance, and
+          checking trade association affiliations to confirm professionalism and
+          accountability.
+        </p>
+        <p>Vetting steps:</p>
+        <ul>
+          <li>Confirm State or local licensing and insurance coverage.</li>
+          <li>
+            Review portfolios and interview references from recent bathroom
+            renovations.
+          </li>
+          <li>
+            Evaluate written bids for scope clarity, payment schedule, and
+            warranty terms.
+          </li>
+        </ul>
+        <p>
+          A rigorous vetting process ensures you engage a skilled contractor and
+          sets expectations for project communication.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Are the Consequences of Hiring Unqualified Professionals?
+        </h2>
+        <p>
+          Unlicensed or underinsured contractors may abandon projects, deliver
+          substandard work, or leave homeowners with unresolved structural or
+          moisture issues.
+        </p>
+        <p>Risks of unqualified hires:</p>
+        <ul>
+          <li>Voided warranties on fixtures and materials.</li>
+          <li>Code violations requiring costly permits and inspections.</li>
+          <li>Personal liability for on-site accidents without insurance.</li>
+        </ul>
+        <p>
+          Avoiding these risks underscores the value of transparent
+          communication and progress tracking.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Can Proper Communication Prevent Renovation Mistakes?
+        </h2>
+        <p>
+          Regular status meetings, documented change orders, and shared project
+          timelines foster alignment and reduce errors.
+        </p>
+        <p>Communication best practices:</p>
+        <ol>
+          <li>
+            Schedule weekly check-ins with the contractor to review progress.
+          </li>
+          <li>
+            Use photo logs and shared project management tools for issue
+            tracking.
+          </li>
+          <li>
+            Approve written change orders before authorizing additional work.
+          </li>
+        </ol>
+        <p>
+          Clear communication habits maintain quality control and transition
+          smoothly into preserving long-term value and accessibility.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How Can You Avoid Long-Term Value and Accessibility Mistakes in
+          Bathroom Remodels?
+        </h2>
+        <p>
+          Forward-thinking design and durable choices protect resale value,
+          enhance universal access, and support eco-friendly standards that
+          appeal to modern buyers.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          What Mistakes Reduce the Resale Value of Your Bathroom Remodel?
+        </h2>
+        <p>
+          Overly personalized finishes, low-quality fixtures, and ignoring
+          emerging design trends can deter future buyers.
+        </p>
+        <p>Value-reducing errors:</p>
+        <ul>
+          <li>Installing niche color schemes or outdated tile patterns.</li>
+          <li>Selecting budget fixtures prone to failure.</li>
+          <li>
+            Excluding popular features like walk-in showers or dual sinks.
+          </li>
+        </ul>
+        <p>
+          Prioritizing neutral palettes, quality materials, and versatile
+          layouts safeguards equity and leads into accessibility planning.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          How to Incorporate Accessibility Features Without Common Errors?
+        </h2>
+        <p>
+          Mistakes such as insufficient grab-bar reinforcement, narrow doorways,
+          and high thresholds compromise safety and usability.
+        </p>
+        <p>Accessible design errors:</p>
+        <ul>
+          <li>Installing grab bars without backing plates or blocking.</li>
+          <li>Failing to provide 32-inch clear door openings.</li>
+          <li>Choosing non-slip surfaces without ADA compliance.</li>
+        </ul>
+        <p>
+          Integrating ADA-compliant clearances, pivot-out drawers, and
+          reinforced blocking ensures safe access and supports sustainable
+          design choices.
+        </p>
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          Why Is Sustainable and Eco-Friendly Bathroom Design Important?
+        </h2>
+        <p>
+          Ignoring water-efficient fixtures, recycled materials, and low-VOC
+          finishes increases environmental impact and operating costs.
+        </p>
+        <p>Eco-mistakes include:</p>
+        <ul>
+          <li>Choosing standard-flow toilets instead of 1.28 GPF models.</li>
+          <li>
+            Using non-recycled countertop materials with high embodied energy.
+          </li>
+          <li>Applying solvent-based paints that emit VOCs.</li>
+        </ul>
+        <p>
+          Implementing water-saving plumbing, reclaimed wood cabinetry, and
+          low-VOC paints reduces resource use and sets you on a path toward
+          greener renovations.
+        </p>
+        <p>
+          Thoughtful sustainability measures not only lower utility bills but
+          also enhance market appeal, completing a renovation that’s efficient,
+          accessible, and future-proof.
+        </p>
+        <p>
+          A well-executed bathroom remodel hinges on comprehensive planning,
+          realistic budgeting, and expert collaboration, which together prevent
+          common mistakes and protect your investment. Durable materials,
+          correct technical installations, and careful contractor selection
+          build a bathroom that functions flawlessly and retains value.
+          Integrating moisture control, energy-efficient fixtures, and universal
+          design features safeguards longevity and accessibility. By following
+          these strategies, you’ll transform your bathroom into a safe, stylish,
+          and sustainable space that serves your needs today and enhances your
+          home’s appeal tomorrow.
+        </p>
+
+        <p>
+          <a
+            href="/quote"
+            className="underline hover:text-blue-800 font-medium"
+          >
+            Request a free bathroom remodeling quote →
+          </a>
+        </p>
+
+        <p>
+          🔗 Related Reads:{" "}
+          <a
+            href="/tips-and-tricks/spokane-kitchen-remodel-features"
+            className="underline hover:text-blue-800"
+          >
+            5 Must-Have features for your kitchen remodel
+          </a>
+          ,{" "}
+          <a
+            href="/tips-and-tricks/outdoor-living-trends-spokane"
+            className="underline hover:text-blue-800"
+          >
+            Top Outdoor Living Trends Spokane Homeowners Love
+          </a>
+        </p>
+      </div>
+    ),
+  },
+
+  {
     title: "5 Must-Have Features for Your Spokane Kitchen Remodel",
     date: "2025-07-24",
     slug: "spokane-kitchen-remodel-features",
@@ -8,6 +660,7 @@ export const posts = [
       "Transform your Spokane kitchen into a stylish, efficient space with these 5 must-have upgrades: custom cabinetry, premium countertops, smart tech, a functional island, and optimized lighting. Get tips on materials, styles, ROI, and layout planning tailored to Spokane homes.",
     content: (
       <>
+        <img className="my-10" src="/kitremodelart.jpg" />
         <div className="leading-relaxed text-base space-y-6">
           <p>
             Transforming your Spokane home begins with a kitchen remodel that
