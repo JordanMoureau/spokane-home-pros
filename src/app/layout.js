@@ -92,6 +92,11 @@ export default function RootLayout({ children }) {
         ></Script>
 
         <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17056245661"
+        ></Script>
+
+        <Script
           nowprocket
           nitro-exclude
           type="text/javascript"
