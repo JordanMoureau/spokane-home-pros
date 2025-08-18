@@ -72,6 +72,13 @@ export default function QuotePage() {
             renovation or repair project.
           </p>
         </div>
+
+        <div className="max-w-4xl mt-20">
+          <img
+            src="/team.jpeg"
+            alt="a spokane home remodeling professional helping a customer"
+          />
+        </div>
       </section>
     </main>
   );

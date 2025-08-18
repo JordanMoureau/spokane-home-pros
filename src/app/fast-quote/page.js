@@ -200,11 +200,11 @@ export default function FastQuotePage() {
           <TestimonialsForQuote />
         </div>
 
-        <p className="text-lg max-w-3xl">
+        <h2 className="text-lg max-w-3xl mt-20">
           Get your free, no obligation quote today! Take 60 seconds and get
           everything you need to know about your home renovation or home repair
           project.
-        </p>
+        </h2>
 
         <div className="mt-10 w-full max-w-2xl">
           <ContactForm />

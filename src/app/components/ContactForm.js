@@ -120,21 +120,6 @@ export default function ContactForm() {
 
           <div>
             <input
-              placeholder="Type of Remodeling Work"
-              {...register("remodelingWork", {
-                required: "Type of work is required",
-              })}
-              className="w-full bg-white rounded-full py-4 px-7"
-            />
-            {errors.remodelingWork && (
-              <p className="text-red-500 text-sm">
-                {errors.remodelingWork.message}
-              </p>
-            )}
-          </div>
-
-          <div>
-            <input
               placeholder="Email Address"
               {...register("email", {
                 required: "Email is required",
@@ -166,7 +151,7 @@ export default function ContactForm() {
             type="submit"
             className="bg-[#1f509a] uppercase text-3xl text-white px-10 py-2 rounded-full font-bold hover:bg-[#1f509a]"
           >
-            Send Message
+            Get your free quote
           </button>
         </form>
       )}
