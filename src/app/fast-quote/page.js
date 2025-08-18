@@ -177,8 +177,7 @@ export default function FastQuotePage() {
     <main className="min-h-screen bg-[#ffba42] blue">
       <section className="flex flex-col items-center text-center py-16 px-6">
         <h1 className="text-5xl max-w-4xl font-bold mb-4">
-          Tired of flaky contractors who overcharge you and leave half finished
-          work? Yeah. We are too.
+          Tired of flaky contractors? Yeah. We are to.
         </h1>
         <p className="text-lg max-w-3xl">
           Give us 30 seconds. We'll get you with a top-rated Spokane contractor
@@ -200,6 +199,12 @@ export default function FastQuotePage() {
         <div className="bg-white/70 rounded-2xl mt-20 w-full max-w-5xl p-1">
           <TestimonialsForQuote />
         </div>
+
+        <p className="text-lg max-w-3xl">
+          Get your free, no obligation quote today! Take 60 seconds and get
+          everything you need to know about your home renovation or home repair
+          project.
+        </p>
 
         <div className="mt-10 w-full max-w-2xl">
           <ContactForm />
