@@ -201,7 +201,7 @@ export default function FastQuotePage() {
         </div>
 
         <h2 className="text-lg max-w-3xl mt-20">
-          Get your free, no obligation quote today! Take 60 seconds and get
+          Get your free, no obligation quote today! Take 30 seconds and get
           everything you need to know about your home renovation or home repair
           project.
         </h2>
