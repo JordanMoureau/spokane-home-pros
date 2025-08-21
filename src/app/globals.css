@@ -68,3 +68,77 @@ button {
 .grecaptcha-badge {
   visibility: hidden;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.75em;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f8f8;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Call Now Bar */
+#shp-callnow {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: #1f509a; /* navy blue */
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#shp-callnow a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.6rem 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  transition: background 0.2s ease;
+}
+
+#shp-callnow a:hover,
+#shp-callnow a:focus-visible {
+  background: #f57c00; /* darker navy hover */
+}
+
+#shp-callnow .shp-text {
+  text-transform: uppercase;
+}
+
+#shp-callnow .shp-number {
+  opacity: 0.9;
+}
+
+/* Small screens: bigger tap target + hide number */
+@media (max-width: 640px) {
+  #shp-callnow a {
+    padding: 0.8rem 1rem;
+    font-size: 1.05rem;
+  }
+  #shp-callnow .shp-number {
+    display: none;
+  }
+}
