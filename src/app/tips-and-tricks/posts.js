@@ -848,7 +848,7 @@ export const posts = [
     date: "2025-08-1",
     slug: "renovation-budgets-in-spokane",
     preview:
-      "Renovation budgets in Spokane, WA often balloon when homeowners underestimate permit fees, material choices, and labor rates, leading to unexpected outlays and timeline delays. This guide reveals realistic cost ranges for kitchen, bathroom, home addition, basement finishing, and siding replacement projects, identifies the key factors that drive those expenses, explores financing pathways and local assistance programs, clarifies Spokane’s permit requirements, outlines ROI-boosting upgrades, shows how to vet qualified remodelers, and lays out typical project timelines. By mapping average costs to financing options and regulatory obligations, you’ll gain the confidence to plan your Spokane home remodeling or renovation with precision and avoid budget overruns.",
+      "Renovation budgets in Spokane, WA often balloon when homeowners underestimate permit fees, material choices, and labor rates, leading to unexpected outlays and timeline delays...",
     content: (
       <div className="leadding-relaxed text-base space-y-6">
         <figure>
@@ -1603,7 +1603,7 @@ export const posts = [
     date: "2025-08-1",
     slug: "renovation-budgets-in-spokane",
     preview:
-      "Renovation budgets in Spokane, WA often balloon when homeowners underestimate permit fees, material choices, and labor rates, leading to unexpected outlays and timeline delays. This guide reveals realistic cost ranges for kitchen, bathroom, home addition, basement finishing, and siding replacement projects, identifies the key factors that drive those expenses, explores financing pathways and local assistance programs, clarifies Spokane’s permit requirements, outlines ROI-boosting upgrades, shows how to vet qualified remodelers, and lays out typical project timelines. By mapping average costs to financing options and regulatory obligations, you’ll gain the confidence to plan your Spokane home remodeling or renovation with precision and avoid budget overruns.",
+      "Renovation budgets in Spokane, WA often balloon when homeowners underestimate permit fees, material choices, and labor rates, leading to unexpected outlays and timeline delays...",
     content: (
       <div className="leadding-relaxed text-base space-y-6">
         <figure>
