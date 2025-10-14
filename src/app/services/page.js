@@ -32,6 +32,7 @@ export default function Services() {
       title: "Kitchen Remodeling",
       image: "/cards-kitchen-remodeling.jpg",
       alt: "Modern Spokane kitchen remodeling with custom cabinets and counters",
+      link: "/services/kitchen-remodeling-spokane",
       description:
         "Our Spokane kitchen remodeling team designs and builds kitchens that work for real life—better storage, smarter layouts, and finishes that look good and last. We handle everything from cabinets and counters to plumbing and electrical.",
     },
@@ -128,7 +129,9 @@ export default function Services() {
                 alt={service.alt}
                 className="w-full h-48 object-cover mb-6 rounded-md"
               />
-              <h2 className="text-3xl font-bold mb-4">{service.title}</h2>
+              <h2 className="text-3xl font-bold mb-4">
+                <a href={service.link}>{service.title}</a>
+              </h2>
               <p>{service.description}</p>
             </div>
           ))}
