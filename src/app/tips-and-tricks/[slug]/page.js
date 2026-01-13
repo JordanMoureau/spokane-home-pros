@@ -1,11 +1,11 @@
-// src/app/tips-and-tricks/[slug]/page.js
 import { posts } from "@/app/tips-and-tricks/posts";
+import { notFound } from "next/navigation";
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
 }
 
-export async function generateMetadata({ params }) {
+export function generateMetadata({ params }) {
   const post = posts.find((p) => p.slug === params.slug);
 
   if (!post) {
@@ -19,33 +19,22 @@ export async function generateMetadata({ params }) {
     title: `${post.title} | Spokane Home Pros`,
     description: post.preview,
     alternates: {
-      canonical: `https://yourdomain.com/tips-and-tricks/${post.slug}`,
-    },
-    openGraph: {
-      type: "article",
-      title: post.title,
-      description: post.preview,
-      url: `https://yourdomain.com/tips-and-tricks/${post.slug}`,
-    },
-    twitter: {
-      card: "summary",
-      title: post.title,
-      description: post.preview,
+      canonical: `https://spokanehomepros.com/tips-and-tricks/${post.slug}`,
     },
   };
 }
 
-export default function PostPage({ params }) {
-  const post = posts.find((p) => p.slug === params.slug);
-  if (!post)
-    return <section className="p-6  text-center">Post not found.</section>;
+// ✅ Make it async and await params
+export default async function PostPage({ params }) {
+  const { slug } = await params; // <-- this is the key change
+
+  const post = posts.find((p) => p.slug === slug);
+  if (!post) return notFound();
 
   return (
     <section className="max-w-3xl my-30 blue mx-auto px-6 py-12">
       <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
-
       <p className="text-sm mb-8">{post.date}</p>
-
       <div className="prose prose-lg">{post.content}</div>
     </section>
   );
