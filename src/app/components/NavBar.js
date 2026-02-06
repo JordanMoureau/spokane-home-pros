@@ -10,6 +10,15 @@ const SERVICE_LINKS = [
   { href: "/services/kitchen-remodeling-spokane", label: "Kitchens" },
   { href: "/services/bathroom-remodeling-spokane", label: "Bathrooms" },
   { href: "/services/room-additions-spokane", label: "Room Additions" },
+  { href: "/services/custom-tile-spokane", label: "Custom Tile" },
+  { href: "/services/drywall-spokane", label: "Drywall Repair" },
+  { href: "/services/flooring-installation-spokane", label: "Flooring" },
+  { href: "/services/exteriors-spokane", label: "Exteriors" },
+  {
+    href: "/services/home-theater-addition-spokane",
+    label: "Home Theater",
+  },
+
   { href: "/services/basement-finishing-spokane", label: "Basement Finishing" },
 ];
 
