@@ -144,27 +144,27 @@ export default function FastQuotePage() {
   const images = useMemo(
     () => [
       {
-        src: "https://storage.googleapis.com/content-assistant-images-temp/0a508b07-5a749417-cd0c-4f02-81cb-3f7c6021742c.webp",
+        src: "/kitchen-tiling.jpg",
         alt: "Cozy remodeled kitchen in Spokane showcasing modern design and inviting decor",
         title: "Kitchen Remodel – Spokane Home Pros",
       },
       {
-        src: "https://storage.googleapis.com/content-assistant-images-temp/home-6aa383af-c6eaf369-2bae-410f-87a2-a4a3579cbf6b.webp",
+        src: "/tiling-bathroom.jpg",
         alt: "Stylish remodeled bathroom in Spokane with modern fixtures and elegant design",
         title: "Bathroom Remodel – Spokane Home Pros",
       },
       {
-        src: "https://storage.googleapis.com/content-assistant-images-temp/spokane-6280c3b7-465f89ec-eac6-48a0-b0e6-af0d76cf5083.webp",
+        src: "/exterior-deck.jpg",
         alt: "Home addition construction in Spokane showcasing framing and renovation progress",
         title: "Home Addition – Spokane Home Pros",
       },
       {
-        src: "https://storage.googleapis.com/content-assistant-images-temp/45da6e18-8c6e-4a82-851d-5ca6fed72206.webp",
+        src: "/custom-tile.jpg",
         alt: "Modern bathroom renovation showcasing stylish fixtures and elegant design",
         title: "Modern Bath – Spokane Home Pros",
       },
       {
-        src: "https://storage.googleapis.com/content-assistant-images-temp/deb00b3a-3af6-4b95-888b-11b0c5800c43.webp",
+        src: "/team.jpeg",
         alt: "Homeowner consulting with a professional contractor for bathroom renovation",
         title: "Consultation – Get Quotes Fast",
       },
