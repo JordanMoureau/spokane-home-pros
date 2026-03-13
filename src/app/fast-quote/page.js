@@ -177,7 +177,7 @@ export default function FastQuotePage() {
     <main className="min-h-screen bg-[#ffba42] blue">
       <section className="flex flex-col items-center text-center py-16 px-6">
         <h1 className="text-5xl max-w-4xl font-bold mb-4">
-          Tired of flaky contractors? Yeah. We are to.
+          Tired of flaky contractors? Yeah. We are too.
         </h1>
         <p className="text-lg max-w-3xl">
           Give us 30 seconds. We'll get you with a top-rated Spokane contractor
