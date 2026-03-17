@@ -1908,7 +1908,7 @@ export const posts = [
 
         <figure>
           <img
-            src="spokane-kitchen-remodel-quartz-countertops-2025.jpg"
+            src="kitchens.jpeg"
             width="initial"
             height="initial"
             alt="Spokane kitchen remodel with quartz countertops and white oak cabinetry"
@@ -5190,7 +5190,7 @@ export const posts = [
             </a>
             ,{" "}
             <a
-              href="/tips-and-tricks/bathroom-remodel-features-spokane-buyers-love"
+              href="/tips-and-tricks/budget-bathroom-upgrades-spokane"
               className=" underline hover:text-blue-800"
             >
               Top Bathroom Remodel Features Spokane Buyers Love

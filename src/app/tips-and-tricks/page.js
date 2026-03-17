@@ -8,15 +8,12 @@ export const metadata = {
   title: "Tips & Tricks for Home Improvement | Spokane Home Pros",
   description:
     "Explore practical remodeling and repair tips from Spokane's trusted home-improvement experts.",
-  alternates: {
-    canonical: "https://spokanehomepros.com/tips-and-tricks",
-  },
+
   openGraph: {
     type: "website",
     title: "Tips & Tricks for Home Improvement | Spokane Home Pros",
     description:
       "Discover practical remodeling and repair tips from Spokane’s trusted pros.",
-    url: "https://spokanehomepros.com/tips-and-tricks",
     images: [
       {
         url: "/images/tips-cover.jpg", // 1200×630 preferred

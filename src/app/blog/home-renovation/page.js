@@ -9,14 +9,12 @@ export const metadata = {
   title: "Home Renovation in Spokane & North Idaho | Spokane Home Pros",
   description:
     "Planning a home renovation in Spokane or North Idaho? Spokane Home Pros handles kitchen, bathroom, basement, and whole-home remodeling with clean job sites and clear communication.",
-  alternates: {
-    canonical: "https://www.spokanehomepros.com/home-renovation",
-  },
+
   openGraph: {
     title: "Home Renovation Services in Spokane & North Idaho",
     description:
       "From kitchens and bathrooms to basements and whole-home updates, Spokane Home Pros helps homeowners renovate with confidence.",
-    url: "https://www.spokanehomepros.com/home-renovation",
+
     images: [
       {
         url: "/spokane-valley-build.jpeg",

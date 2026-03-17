@@ -9,14 +9,12 @@ export const metadata = {
   title: "About Spokane Home Pros | Local Home Remodeling & Repairs",
   description:
     "Spokane Home Pros is a local remodeling and home repair company serving Spokane and North Idaho. Learn who we are, how we work, and why homeowners trust us with kitchens, bathrooms, additions, and repairs.",
-  alternates: {
-    canonical: "https://www.spokanehomepros.com/about",
-  },
+
   openGraph: {
     title: "About Spokane Home Pros | Local Remodeling Pros You Can Trust",
     description:
       "We’re Spokane-based remodelers focused on clear communication, clean job sites, and projects that finish on time. Meet the team behind Spokane Home Pros.",
-    url: "https://www.spokanehomepros.com/about",
+
     images: [
       {
         url: "/logo.png",
