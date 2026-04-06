@@ -10,13 +10,13 @@ export const metadata = {
   description:
     "Need home repairs in Spokane or North Idaho? Spokane Home Pros handles drywall, rot repair, flooring fixes, carpentry, and small projects that keep your home safe and looking good.",
   alternates: {
-    canonical: "https://www.spokanehomepros.com/home-repairs",
+    canonical: "https://www.spokanehomepros.com/blog/reliable-home-repair",
   },
   openGraph: {
     title: "Home Repair Services in Spokane & North Idaho",
     description:
       "From drywall and rot repair to flooring fixes and punch lists, Spokane Home Pros helps homeowners with reliable, local home repair services.",
-    url: "https://www.spokanehomepros.com/home-repairs",
+    url: "https://www.spokanehomepros.com/blog/reliable-home-repairs",
     images: [
       {
         url: "/spokane-aerial.jpeg",
